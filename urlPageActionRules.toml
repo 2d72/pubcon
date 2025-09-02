@@ -1,0 +1,59 @@
+["weibo.com"]
+selectors = ["article", '[class^="RepostCommentList_"]', '.main_editor']
+
+["xueqiu.com"]
+selectors = [".article__container", ".article__author", "article", ".comment__list", ".modal_content"]
+
+["www.v2ex.com"]
+selectors = [".box"]
+
+["finance.sina.com.cn"]
+selectors = ["h1", "#top_bar_wrap", "#artibody"]
+
+["stock.finance.sina.com.cn"]
+selectors = [".m1"]
+
+["cj.sina.com.cn"]
+selectors = ["h1", "#top_bar_wrap", "#artibody"]
+
+["gu.qq.com"]
+selectors = ["#news-body"]
+
+["www.sohu.com"]
+selectors = [".text"]
+
+["finance.people.com.cn"]
+selectors = ["h1", ".channel", ".rm_txt_con"]
+
+["zhuanlan.zhihu.com"]
+selectors = ["article"]
+
+["auto-time.36kr.com"]
+selectors = [".kr-layout-left"]
+
+["www.gamelook.com.cn"]
+selectors = [".entry-head", ".entry-content"]
+
+["x.com"]
+selectors = ["article"]
+
+["github.com"]
+selectors = ["article.markdown-body", ".repository-content .Box-body"]
+
+["*.substack.com"]
+selectors = [".post-content"]
+
+["news.ycombinator.com"]
+selectors = [".athing", ".comment"]
+
+["www.bloomberg.com"]
+selectors = ['[class^="gridLayout_topContent_"]', '[class^="gridLayout_featureTopContent_"]', 'h1', '[class^="BasicByline_byline__"]', '[class^="styles_ledeContainer_"]', '[class^="gridLayout_centerContent_"]', '[class^="styles_body_"]']
+
+["cn.wsj.com"]
+selectors = [".article-header", "article"]
+
+["www.bbc.com"]
+selectors = ["main"]
+
+["cn.nytimes.com"]
+selectors = ["article.article-content"]
