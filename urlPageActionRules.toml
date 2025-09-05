@@ -8,4 +8,5 @@ hide = ['button[aria-label="Translate post"]',
     'div[data-testid="inline_reply_offscreen"]', 
     'div[aria-label^="Timeline"] h2', 
     'div[data-testid="cellInnerDiv"]:has(h2) ~ *',
+    'div[data-testid="cellInnerDiv"] h2 ~ *',
     ]
