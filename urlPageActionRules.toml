@@ -5,6 +5,7 @@ hide = ['.cnal-collection-con', '.cnal-collection-con ~ *']
 ["x.com"]
 select = ['div[aria-label^="Timeline: Conversation"]']
 hide = ['button[aria-label="Translate post"]', 
+    'div[aria-live="polite"]',
     'div[data-testid="inline_reply_offscreen"]', 
     'div[aria-label^="Timeline"] h2', 
     'div[data-testid="cellInnerDiv"]:has(h2) ~ *',
