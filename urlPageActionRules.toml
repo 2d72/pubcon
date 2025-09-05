@@ -3,5 +3,9 @@ select = ['.col-xs-9:has(h1)']
 hide = ['.cnal-collection-con', '.cnal-collection-con ~ *']
 
 ["x.com"]
-select = ['div[aria-label^="Timeline"]']
-hide = ['button[aria-label="Translate post"]', 'div[data-testid="inline_reply_offscreen"]', 'div[aria-label^="Timeline"] h2', 'div[data-testid="cellInnerDiv"]:has(h2) ~ *']
+select = ['div[aria-label^="Timeline: Conversation"]']
+hide = ['button[aria-label="Translate post"]', 
+    'div[data-testid="inline_reply_offscreen"]', 
+    'div[aria-label^="Timeline"] h2', 
+    'div[data-testid="cellInnerDiv"]:has(h2) ~ *',
+    ]
