@@ -10,3 +10,7 @@ hide = ['button[aria-label="Translate post"]',
     'div[data-testid="cellInnerDiv"]:has(h2) ~ *',
     'div[data-testid="cellInnerDiv"] h2 ~ *',
     ]
+
+["cn.wsj.com"]    
+select = ['.article-container']
+hide = ['#cx-snippet-overlay-sign-in-text', '#cx-snippet-overlay-sign-in-text ~ *', '.aside-container']
