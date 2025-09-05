@@ -3,5 +3,5 @@ select = ['.col-xs-9:has(h1)']
 hide = ['.cnal-collection-con', '.cnal-collection-con ~ *']
 
 ["x.com"]
-select = ['section[aria-labelledby="accessible-list-2"]']
-hide = ['button[aria-label="Translate post"]', 'div[data-testid="inline_reply_offscreen"]', 'h2', 'h2 ~ *']
+select = ['div[aria-label^="Timeline"]']
+hide = ['button[aria-label="Translate post"]', 'div[data-testid="inline_reply_offscreen"]', 'div[aria-label^="Timeline"] h2', 'div[aria-label^="Timeline"] h2 ~ *']
