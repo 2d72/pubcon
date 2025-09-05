@@ -4,4 +4,4 @@ hide = ['.cnal-collection-con', '.cnal-collection-con ~ *']
 
 ["x.com"]
 select = ['div[aria-label^="Timeline"]']
-hide = ['button[aria-label="Translate post"]', 'div[data-testid="inline_reply_offscreen"]', 'div[aria-label^="Timeline"] h2', 'div[aria-label^="Timeline"] h2 ~ *']
+hide = ['button[aria-label="Translate post"]', 'div[data-testid="inline_reply_offscreen"]', 'div[aria-label^="Timeline"] h2', 'div[aria-label^="Timeline"]:has(h2) ~ *']
