@@ -30,3 +30,16 @@ hide = ['div[class*="share_box"]',
     '#articleBottomAdAuto',
     'div[class^="index_comment_box"]',
 ]
+
+["xueqiu.com"]
+select = [
+  ".article__container",
+  ".article__author",
+  "article",
+  ".comment__list",
+  ".modal_content",
+]
+hide = [
+  "div.article__author a.avatar",
+  ".ai_abstract_feedback",
+]
