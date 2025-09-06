@@ -43,3 +43,8 @@ hide = [
   "div.article__author a.avatar",
   ".ai_abstract_feedback",
 ]
+
+["36kr.com"]
+select = ['.article-mian-content']
+hide = ['.article-footer-txt']
+
