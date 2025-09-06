@@ -1,3 +1,13 @@
+["www.news.cn"]
+select = [
+  ".header-cont",
+  ".main-left",
+  ".conbox",
+]
+hide = [
+  '.pageShare'
+]
+
 ["www.xinhuanet.com"]
 select = [
     'div.header[datatype="content"]',
