@@ -1,3 +1,13 @@
+["news.qq.com"]
+select = [
+  ".content-article",
+]
+hide = [
+  ".statement",
+  ".qqcom-follow-button",
+  ".author-avatar"
+]
+
 ["news.cnal.com"]
 select = ['.col-xs-9:has(h1)']
 hide = ['.cnal-collection-con', '.cnal-collection-con ~ *']
