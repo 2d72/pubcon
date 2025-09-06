@@ -3,7 +3,9 @@ select = ['div.flex-col:has(#articleTitle)']
 hide = [
     'div[data-test="contextual-subscription-hook"]',
     'div.flex-col:has(#articleTitle) #comments ~ *',
-    '.sticky'
+    '.sticky',
+    'div.text-center:has(a[id^="article-ad-disclosure"])',
+    'div[data-ad-label="Advertisement"]',
 ]
 
 ["news.qq.com"]
