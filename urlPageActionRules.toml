@@ -1,3 +1,13 @@
+["www.thepaper.cn"]
+select = ['div[class^="index_wrapper_"]:has(h1)']
+hide = [
+    'div[class*="copyrightBox"]',
+    'div[class*="bottomBox"]',
+    'div[class^="index_audio_"]',
+    '.ant-dropdown-trigger',
+]
+
+
 ["www.investing.com"]
 select = ['div.flex-col:has(#articleTitle)']
 hide = [
