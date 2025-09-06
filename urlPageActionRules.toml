@@ -1,3 +1,23 @@
+["m.eeo.com.cn"]
+select = [".contact"]
+hide = [".contact .t-bottom ~ *", "a.onfocus"]
+
+["www.163.com"]
+select = [
+  ".post_main",
+]
+hide = [
+  "#no-tie",
+  ".post_crumb",
+  ".post_jubao",
+  ".post_top",
+  ".post_author",
+  "#post_comment_area",
+  ".post_recommends",
+  ".tie-areas",
+  "#tie", ".post_statement", ".post_next"
+]
+
 ["www.21jingji.com"]
 select = [
   ".main", 
