@@ -1,3 +1,17 @@
+["cn.wsj.com"]
+select = [
+  ".article-container",
+]
+hide = [
+  "nav",
+  "#cx-snippet-overlay-sign-in-text",
+  "#cx-snippet-overlay-sign-in-text ~ *",
+  ".aside-container",
+  ".article-body-tools",
+  "article section ~ *",
+  'div[aria-label="Most Popular News"]',
+]
+
 ["www.news.cn"]
 select = [
   ".header-cont",
