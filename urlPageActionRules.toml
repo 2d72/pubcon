@@ -1,3 +1,10 @@
+["www.21jingji.com"]
+select = [
+  ".main", 
+  'div:has(> h2)'
+]
+hide = ['.detailShare', '.share-wrap']
+
 ["www.thepaper.cn"]
 select = ['div[class^="index_wrapper_"]:has(h1)']
 hide = [
