@@ -1,3 +1,19 @@
+["www.xinhuanet.com"]
+select = [
+    'div.header[datatype="content"]',
+    'div.main', 
+]
+hide = [
+    'div.header-top', 
+    '.pageShare',
+    '.relatedNews', 
+    '.relatedNews ~ *',
+    '.ad_right',
+    '.foot',
+    '.adv',
+    '.main-right'
+]
+
 ["www.zaobao.com.sg"]
 select = ['article']
 hide = ['button', 
