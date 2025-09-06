@@ -1,3 +1,15 @@
+["www.v2ex.com"]
+select = [
+  "#Main .box",
+]
+hide = [
+  '#reply-box',
+  '#reply-box ~ *',
+  '#Rightbar',
+  'a[onclick^="reply"]',
+  'img.avatar',
+]
+
 ["cn.wsj.com"]
 select = [
   ".article-container",
