@@ -1,3 +1,17 @@
+["www.zaobao.com.sg"]
+select = ['article']
+hide = ['button', 
+    '.paywall-container', 
+    'article .articleBody ~ *', 
+    '.sticky',
+    'a[href*="facebook"]',
+    'a[href*="twitter"]',
+    'a[href*="wechat"]',
+    'a[href*="whatsapp"]',
+    'a[href*="/share/"]',
+    'a[href^="mailto"]',
+]
+
 ["m.eeo.com.cn"]
 select = [".contact"]
 hide = [".contact .t-bottom ~ *", "a.onfocus"]
