@@ -1,3 +1,7 @@
+["m.ebrun.com"]
+select = ['article']
+hide = ['.ai-quick-read']
+
 ["cn.wsj.com"]
 select = [
   '.article-container',
