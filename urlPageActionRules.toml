@@ -1,3 +1,12 @@
+["en.wikipedia.org"]
+select = ['#content']
+hide = [
+    '.vector-dropdown',
+    '.vector-page-toolbar',
+    '.vector-column-end',
+    '.vector-body-before-content',
+]
+
 ["www.v2ex.com"]
 select = [
   "#Main .box",
