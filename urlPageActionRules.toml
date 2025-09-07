@@ -1,3 +1,7 @@
+["china.caixin.com"]
+select = ['#the_content']
+hide = ['.pip', 'a.pc-aivoice', 'p.aitt', '#chargeWall', '#chargeWall ~ *']
+
 ["m.ebrun.com"]
 select = ['article']
 hide = ['.ai-quick-read']
