@@ -1,3 +1,16 @@
+["news.cnstock.com"]
+select = ['#pager-content']
+hide = []
+
+["www.cnstock.com"]
+select = ['div[class^="index_leftcontent_"] div[class^="index_wrapper_"]']
+hide = [
+  '.ant-dropdown-trigger',
+  'div[class^="index_bottomBox_"]',
+  'div[class^="index_bottomBox_"] ~ *',
+  '#commentWrapper'
+]
+
 ["www.guancha.cn"]
 select = ['.left-main']
 hide = [
