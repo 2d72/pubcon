@@ -1,3 +1,22 @@
+["www.guancha.cn"]
+select = ['.left-main']
+hide = [
+  'div.author-intro > a',
+  '.share',
+  '#comments-container ~ *',
+  '.accusation',
+  '.shared-comment',
+  'a.comment', 
+  'a.recommend',
+  'a.collection',
+  '.who-recommend',
+  '#comments-container-kuang',
+  '.cmt-top-pic',
+  '.comment-component',
+  '.cmt-desc',
+  '.tab-control',
+]
+
 ["en.wikipedia.org"]
 select = ['#content']
 hide = [
