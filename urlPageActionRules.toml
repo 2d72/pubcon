@@ -1,3 +1,15 @@
+["www.reddit.com"]
+select = ['#main-content']
+hide = []
+
+
+["m.huxiu.com"]
+select = ['#m-article-detail-page .js-mask-box']
+hide = ['.neirong-shouquan']
+
+["www.huxiu.com"]
+select = ['#js-article-read-wrap']
+
 ["www.quora.com"]
 select = ['#mainContent']
 hide = [
