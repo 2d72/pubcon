@@ -1,3 +1,9 @@
+["www.quora.com"]
+select = ['#mainContent']
+hide = [
+  'div[class*="_related_questions"]',
+]
+
 ["news.cnstock.com"]
 select = ['#pager-content']
 hide = []
