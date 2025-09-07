@@ -1,3 +1,8 @@
+["simonwillison.net"]
+select = ['#primary .entryPage']
+hide = ['.entryFooter a:first-child ~ *']
+
+
 ["www.reddit.com"]
 select = ['#main-content']
 hide = []
