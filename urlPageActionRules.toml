@@ -1,3 +1,67 @@
+["www.xinhuanet.com"]
+select = [
+  "div.header",
+  "div.main",
+]
+hide = [
+  ".news-link",
+  ".news-position",
+  "div.header-top",
+  ".fllow1-wap",
+  ".pageShare",
+  ".relatedNews",
+  ".relatedNews ~ *",
+  ".ad_right",
+  ".foot",
+  ".adv",
+  ".main-right",
+  ".part-right",
+  ".zan-wap",
+  ".zan-wap ~ *",
+  ".relate-news",
+  ".relate-news ~ *",
+  ".p2-nav-wap",
+  ".p2-nav-wap ~ *",  
+]
+
+["www.zhihu.com"]
+select = ['.QuestionHeader-content', '.Question-mainColumn']
+hide = ['.QuestionHeader-topics']
+
+["finance.ifeng.com"]
+select = [
+  "#artical",
+  "h1",
+  '[class^="index_infoboxLink_"]',
+  '[class^="index_main_content_"]',
+]
+hide = ['.share', '#artical_real ~ *']
+
+
+["politics.people.com.cn"]
+select = ['.text_title', '#rwb_zw', 'section.left']
+hide = ['#ops_share', 'aside.tools',
+  'a[href="http://mms.people.com.cn/GB/"]',
+  '#p_content ~ *',
+  '.message',
+  '.message ~ *',
+]
+
+["finance.people.com.cn"]
+select = [
+  "div.col:has(h1)",
+  "h1",
+  ".author",
+  ".channel",
+  ".rm_txt_con",
+]
+hide = [
+  'div.edit ~ *',
+  "div.rm_relevant",
+  "div.rm_relevant ~ *",
+]
+
+
 ["china.caixin.com"]
 select = ['#the_content']
 hide = ['.pip', 'a.pc-aivoice', 'p.aitt', '#chargeWall', '#chargeWall ~ *']
@@ -111,21 +175,6 @@ hide = [
   '.pageShare'
 ]
 
-["www.xinhuanet.com"]
-select = [
-    'div.header[datatype="content"]',
-    'div.main', 
-]
-hide = [
-    'div.header-top', 
-    '.pageShare',
-    '.relatedNews', 
-    '.relatedNews ~ *',
-    '.ad_right',
-    '.foot',
-    '.adv',
-    '.main-right'
-]
 
 ["www.zaobao.com.sg"]
 select = ['article']
