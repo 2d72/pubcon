@@ -1,3 +1,7 @@
+["lobste.rs"]
+select = ['#inside']
+hide = ['form']
+
 ["www.gamelook.com.cn"]
 select = [
   ".entry-head",
