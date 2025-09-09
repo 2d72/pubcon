@@ -1,3 +1,10 @@
+["www.gamelook.com.cn"]
+select = [
+  ".entry-head",
+  ".entry-content",
+]
+hide = ['.entry-fontsize', '.entry-copyright']
+
 ["www.xinhuanet.com"]
 select = [
   "div.header",
