@@ -41,7 +41,7 @@ hide = [
 
 ["www.zhihu.com"]
 select = ['.QuestionHeader-content', '.Question-mainColumn']
-hide = ['.QuestionHeader-topics']
+hide = ['.QuestionHeader-topics', '.Question-mainColumnLogin']
 
 ["finance.ifeng.com"]
 select = [
