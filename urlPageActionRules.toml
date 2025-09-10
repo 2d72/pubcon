@@ -1,3 +1,7 @@
+["www.newyorker.com"]
+select = ['article']
+hide = []
+
 ["lobste.rs"]
 select = ['#inside']
 hide = ['form']
