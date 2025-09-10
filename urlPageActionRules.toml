@@ -1,3 +1,6 @@
+["arxiv.org"]
+select = ['.leftcolumn']
+
 ["spaces.ac.cn"]
 select = [".Post", "#comments .AllComments"]
 hide = ['#content_tips', '#content_tips ~ *']
