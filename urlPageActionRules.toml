@@ -1,3 +1,14 @@
+["www.economist.com"]
+select = ["main#content"]
+hide = [
+  "#article-tags", 
+  "#article-tags ~ *", 
+  'div:has(> #article-tags) ~ *',
+  'div[data-testid="morefrom-sectionheader"]',
+  'div[data-testid="morefrom-sectionheader"] ~ *',
+  'i:has(a[href^="https://www.economist.com/newsletters/"])'
+]
+
 ["news.ycombinator.com"]
 select = [
   "#bigbox",
