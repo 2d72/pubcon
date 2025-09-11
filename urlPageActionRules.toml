@@ -1,3 +1,7 @@
+["stcn.com"]
+select = ['.column-810']
+hide = ['.detail-content-tags', '.detail-content-tags ~ *']
+
 ["www.economist.com"]
 select = ["main#content"]
 hide = [
