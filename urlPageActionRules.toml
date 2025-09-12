@@ -1,3 +1,7 @@
+["www.anthropic.com"]
+select = ['#main-content']
+hide = ['article ~ *', 'div[class^="ToutCallout"]']
+
 ["stock.10jqka.com.cn"]
 select = [
   ".main-fl",
