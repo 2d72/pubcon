@@ -1,3 +1,18 @@
+["www.reuters.com"]
+select = [
+  '[class^="article__content_"]',
+  '[class^="article-module__content"]',
+]
+hide = [
+  '[class*="article-body__trust-badge_"]',
+  '[class*="article-body__trust-badge_"] ~ div',
+  "nav",
+  '[class*="license-content-button"]',
+  'a[data-testid="LicenceContentButton"]',
+  'p[class*="article-body-module__trust-badge_"]'
+]
+
+
 ["www.anthropic.com"]
 select = ['#main-content']
 hide = ['article ~ *', 'div[class^="ToutCallout"]']
