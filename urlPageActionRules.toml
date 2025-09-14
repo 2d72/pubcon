@@ -1,3 +1,12 @@
+["www.wsj.com"]
+select = ['main']
+hide = [
+  'article ~ *',
+  'section ~ *',
+  '#cx-snippet-overlay-sign-in-text', 
+  '#cx-snippet-overlay-sign-in-text ~ *',
+]
+
 ["www.reuters.com"]
 select = [
   '[class^="article__content_"]',
