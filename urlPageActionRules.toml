@@ -1,7 +1,17 @@
 ["baijiahao.baidu.com"]
 cleanParams = ['wfr', 'for', 'n_type', 'p_from', 'from', 'sourceFrom']
 
-
+["mbd.baidu.com"]
+select = []
+hide = []
+cleanParams = [
+  "wfr",
+  "for",
+  "n_type",
+  "p_from",
+  "from",
+  "sourceFrom",
+]
 
 ["s.weibo.com"]
 select = [".ai_module", ".card-wrap"]
