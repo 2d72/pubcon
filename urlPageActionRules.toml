@@ -1,3 +1,8 @@
+["baijiahao.baidu.com"]
+cleanParams = ['wfr', 'for', 'n_type', 'p_from', 'from', 'sourceFrom']
+
+
+
 ["s.weibo.com"]
 select = [".ai_module", ".card-wrap"]
 hide = [".operate_area", ".material_status_text", ".wbicon"]
