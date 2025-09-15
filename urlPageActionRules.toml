@@ -1,3 +1,7 @@
+["s.weibo.com"]
+select = [".ai_module", ".card-wrap"]
+hide = [".operate_area", ".material_status_text", ".wbicon"]
+
 ["www.wsj.com"]
 select = ['main']
 hide = [
