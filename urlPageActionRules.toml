@@ -13,6 +13,7 @@ hide = [
 
 ["www.reuters.com"]
 select = [
+  'article',
   '[class^="article__content_"]',
   '[class^="article-module__content"]',
 ]
@@ -22,7 +23,8 @@ hide = [
   "nav",
   '[class*="license-content-button"]',
   'a[data-testid="LicenceContentButton"]',
-  'p[class*="article-body-module__trust-badge_"]'
+  'p[class*="article-body-module__trust-badge_"]',
+  '.other-stories-container',
 ]
 
 
