@@ -1,3 +1,13 @@
+["github.com"]
+select = [
+  "#repository-container-header",
+  "article.markdown-body",
+  ".repository-content .Box-body",
+]
+hide = ['img.avatar']
+cleanParams = []
+
+
 ["baijiahao.baidu.com"]
 cleanParams = ['wfr', 'for', 'n_type', 'p_from', 'from', 'sourceFrom']
 
