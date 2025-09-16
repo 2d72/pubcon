@@ -1,3 +1,31 @@
+["finance.sina.com.cn"]
+select = [
+  'h1',
+  '#top_bar_wrap',
+  '#artibody',
+  '.part.m-article',
+]
+hide = [
+  '.hq-finapp-sh',
+  '.appCheckLink',
+  '.page-tools',
+  '.page-right-bar',
+  '.t_wengu',
+  '[class$="-bottom-bar"]',
+  '#atc_cmt',
+  '#atc_add_1',
+  '#atc_font_changer',
+  '#atc_menu',
+  '#m_atc_keyword',
+  '.second-title',
+  'div.appendQr_wrap',
+  '#article-bottom',
+  '#article-bottom ~ *',
+  '.article-content-right',
+  'span[id^="quote_"]',
+]
+cleanParams = []
+
 ["feddit.org"]
 select = ['main']
 hide = ['aside', '.comment-form', '.btn-group', '.badge']
