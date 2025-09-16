@@ -1,3 +1,7 @@
+["feddit.org"]
+select = ['main']
+hide = ['aside', '.comment-form', '.btn-group', '.badge']
+
 ["github.com"]
 select = [
   "#repository-container-header",
