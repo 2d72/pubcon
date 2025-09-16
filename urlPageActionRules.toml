@@ -412,16 +412,20 @@ hide = ['button[aria-label="Translate post"]',
     'div[data-testid="cellInnerDiv"] h2 ~ *',
     ]
 
-
-
 ["tech.ifeng.com"]
-select = ['div[class^="index_artical_"]']
-hide = ['div[class*="share_box"]', 
-    'div[class*="comment_box"]',
-    'div[class^="index_vote_box"]',
-    '#articleBottomAdAuto',
-    'div[class^="index_comment_box"]',
+select = [
+  'div[class^="index_artical_"]',
 ]
+hide = [
+  'div[class*="share_box"]',
+  'div[class*="comment_box"]',
+  'div[class^="index_vote_box"]',
+  '#articleBottomAdAuto',
+  'div[class^="index_comment_box"]',
+  'div[class*="_copyRight_"]'
+]
+cleanParams = []
+
 
 ["xueqiu.com"]
 select = [
