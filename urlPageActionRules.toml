@@ -1,3 +1,6 @@
+["mp.weixin.qq.com"]
+hide = ['#img_swiper_placeholder', '.share_media_swiper_wrp']
+
 ["finance.sina.com.cn"]
 select = [
   'h1',
