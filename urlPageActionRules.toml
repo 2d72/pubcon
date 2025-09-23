@@ -87,6 +87,7 @@ hide = [
   'a[data-testid="LicenceContentButton"]',
   'p[class*="article-body-module__trust-badge_"]',
   '.other-stories-container',
+  'div[class*="read-next"]',
 ]
 
 
