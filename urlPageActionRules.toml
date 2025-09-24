@@ -1,3 +1,20 @@
+["www.bloomberg.com"]
+select = [
+  '[class^="gridLayout_topContent_"]',
+  '[class^="gridLayout_featureTopContent_"]',
+  'h1',
+  '[class^="BasicByline_byline__"]',
+  '[class^="styles_ledeContainer_"]',
+  '[class^="gridLayout_centerContent_"]',
+  '[class^="styles_body_"]',
+  '#article-container',
+  '[class^="FeatureContent_body_"]',
+]
+hide = [
+  '[class^="AuthorBio_"]',
+  'section.css--recirc-wrapper',
+]
+
 ["mp.weixin.qq.com"]
 hide = ['#img_swiper_placeholder', '.share_media_swiper_wrp']
 
