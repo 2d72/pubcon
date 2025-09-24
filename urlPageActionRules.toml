@@ -1,3 +1,12 @@
+["business.sohu.com"]
+select = ['.text']
+hide = [
+  '#articleReport', 
+  '#bannedNotice', 
+  '.statement', 
+  'a[id="backsohucom"]',
+]
+
 ["36kr.com"]
 select = [
   '.article-mian-content',
