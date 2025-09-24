@@ -1,22 +1,114 @@
-["www.bloomberg.com"]
+["36kr.com"]
 select = [
-  '[class^="gridLayout_topContent_"]',
-  '[class^="gridLayout_featureTopContent_"]',
-  'h1',
-  '[class^="BasicByline_byline__"]',
-  '[class^="styles_ledeContainer_"]',
-  '[class^="gridLayout_centerContent_"]',
-  '[class^="styles_body_"]',
-  '#article-container',
-  '[class^="FeatureContent_body_"]',
+  '.article-mian-content',
 ]
 hide = [
-  '[class^="AuthorBio_"]',
-  'section.css--recirc-wrapper',
+  '.article-footer-txt',
+]
+cleanParams = []
+
+["arxiv.org"]
+select = [
+  '.leftcolumn',
+]
+hide = []
+cleanParams = []
+
+["baijiahao.baidu.com"]
+select = []
+hide = []
+cleanParams = [
+  'wfr',
+  'for',
+  'n_type',
+  'p_from',
+  'from',
+  'sourceFrom',
 ]
 
-["mp.weixin.qq.com"]
-hide = ['#img_swiper_placeholder', '.share_media_swiper_wrp']
+["china.caixin.com"]
+select = [
+  '#the_content',
+]
+hide = [
+  '.pip',
+  'a.pc-aivoice',
+  'p.aitt',
+  '#chargeWall',
+  '#chargeWall ~ *',
+]
+cleanParams = []
+
+["cn.wsj.com"]
+select = [
+  '.article-container',
+  'div[data-testid^="bigtop-headline"]',
+  '#big-top-caption',
+  'article',
+]
+hide = [
+  'nav',
+  '#cx-snippet-overlay-sign-in-text',
+  '#cx-snippet-overlay-sign-in-text ~ *',
+  '.aside-container',
+  '.article-body-tools',
+  'article section ~ *',
+  'div[aria-label="Most Popular News"]',
+  'div:has(section) ~ *',
+]
+cleanParams = []
+
+["en.wikipedia.org"]
+select = [
+  '#content',
+]
+hide = [
+  '.vector-dropdown',
+  '.vector-page-toolbar',
+  '.vector-column-end',
+  '.vector-body-before-content',
+]
+cleanParams = []
+
+["feddit.org"]
+select = [
+  'main',
+]
+hide = [
+  'aside',
+  '.comment-form',
+  '.btn-group',
+  '.badge',
+]
+cleanParams = []
+
+["finance.ifeng.com"]
+select = [
+  '#artical',
+  'h1',
+  '[class^="index_infoboxLink_"]',
+  '[class^="index_main_content_"]',
+]
+hide = [
+  '.share',
+  '#artical_real ~ *',
+]
+cleanParams = []
+
+["finance.people.com.cn"]
+select = [
+  'div.col:has(h1)',
+  'h1',
+  '.author',
+  '.channel',
+  '.rm_txt_con',
+]
+hide = [
+  'div.edit ~ *',
+  'div.rm_relevant',
+  'div.rm_relevant ~ *',
+]
+cleanParams = []
 
 ["finance.sina.com.cn"]
 select = [
@@ -47,391 +139,186 @@ hide = [
 ]
 cleanParams = []
 
-["feddit.org"]
-select = ['main']
-hide = ['aside', '.comment-form', '.btn-group', '.badge']
-
 ["github.com"]
 select = [
-  "#repository-container-header",
-  "article.markdown-body",
-  ".repository-content .Box-body",
+  '#repository-container-header',
+  'article.markdown-body',
+  '.repository-content .Box-body',
 ]
-hide = ['img.avatar']
+hide = [
+  'img.avatar',
+]
 cleanParams = []
 
+["lobste.rs"]
+select = [
+  '#inside',
+]
+hide = [
+  'form',
+]
+cleanParams = []
 
-["baijiahao.baidu.com"]
-cleanParams = ['wfr', 'for', 'n_type', 'p_from', 'from', 'sourceFrom']
+["m.ebrun.com"]
+select = [
+  'article',
+]
+hide = [
+  '.ai-quick-read',
+]
+cleanParams = []
+
+["m.eeo.com.cn"]
+select = [
+  '.contact',
+]
+hide = [
+  '.contact .t-bottom ~ *',
+  'a.onfocus',
+]
+cleanParams = []
+
+["m.huxiu.com"]
+select = [
+  '#m-article-detail-page .js-mask-box',
+]
+hide = [
+  '.neirong-shouquan',
+]
+cleanParams = []
 
 ["mbd.baidu.com"]
 select = []
 hide = []
 cleanParams = [
-  "wfr",
-  "for",
-  "n_type",
-  "p_from",
-  "from",
-  "sourceFrom",
+  'wfr',
+  'for',
+  'n_type',
+  'p_from',
+  'from',
+  'sourceFrom',
 ]
 
-["s.weibo.com"]
-select = [".ai_module", ".card-wrap"]
-hide = [".operate_area", ".material_status_text", ".wbicon"]
-cleanParams = ["Refer"]
-
-["www.wsj.com"]
-select = ['main']
+["mp.weixin.qq.com"]
+select = []
 hide = [
-  'article ~ *',
-  'section ~ *',
-  '#cx-snippet-overlay-sign-in-text', 
-  '#cx-snippet-overlay-sign-in-text ~ *',
+  '#img_swiper_placeholder',
+  '.share_media_swiper_wrp',
 ]
+cleanParams = []
 
-["www.reuters.com"]
+["news.cnal.com"]
 select = [
-  'article',
-  '[class^="article__content_"]',
-  '[class^="article-module__content"]',
+  '.col-xs-9:has(h1)',
 ]
 hide = [
-  '[class*="article-body__trust-badge_"]',
-  '[class*="article-body__trust-badge_"] ~ div',
-  "nav",
-  '[class*="license-content-button"]',
-  'a[data-testid="LicenceContentButton"]',
-  'p[class*="article-body-module__trust-badge_"]',
-  '.other-stories-container',
-  'div[class*="read-next"]',
+  '.cnal-collection-con',
+  '.cnal-collection-con ~ *',
 ]
+cleanParams = []
 
-
-["www.anthropic.com"]
-select = ['#main-content']
-hide = ['article ~ *', 'div[class^="ToutCallout"]']
-
-["stock.10jqka.com.cn"]
+["news.cnstock.com"]
 select = [
-  ".main-fl",
+  '#pager-content',
+]
+hide = []
+cleanParams = []
+
+["news.qq.com"]
+select = [
+  '.content-article',
 ]
 hide = [
-  ".dianzan",
-  ".share-bottom",
-  ".politics-hide",
+  '.statement',
+  '.qqcom-follow-button',
+  '.author-avatar',
 ]
-
-["stcn.com"]
-select = ['.column-810']
-hide = ['.detail-content-tags', '.detail-content-tags ~ *']
-
-["www.economist.com"]
-select = ["main#content"]
-hide = [
-  "#article-tags", 
-  "#article-tags ~ *", 
-  'div:has(> #article-tags) ~ *',
-  'div[data-testid="morefrom-sectionheader"]',
-  'div[data-testid="morefrom-sectionheader"] ~ *',
-  'i:has(a[href^="https://www.economist.com/newsletters/"])'
-]
+cleanParams = []
 
 ["news.ycombinator.com"]
 select = [
-  "#bigbox",
+  '#bigbox',
 ]
 hide = [
-  'form', '.reply', '.navs',
+  'form',
+  '.reply',
+  '.navs',
   'a[href^="hide"]',
   'a.hnpast',
   'a[href^="fav"]',
 ]
-
-["arxiv.org"]
-select = ['.leftcolumn']
-
-["spaces.ac.cn"]
-select = [".Post", "#comments .AllComments"]
-hide = ['#content_tips', '#content_tips ~ *']
-
-["www.newyorker.com"]
-select = ['article']
-hide = []
-
-["lobste.rs"]
-select = ['#inside']
-hide = ['form']
-
-["www.gamelook.com.cn"]
-select = [
-  ".entry-head",
-  ".entry-content",
-]
-hide = ['.entry-fontsize', '.entry-copyright']
-
-["www.xinhuanet.com"]
-select = [
-  "div.header",
-  "div.main",
-]
-hide = [
-  ".news-link",
-  ".news-position",
-  "div.header-top",
-  ".fllow1-wap",
-  ".pageShare",
-  ".relatedNews",
-  ".relatedNews ~ *",
-  ".ad_right",
-  ".foot",
-  ".adv",
-  ".main-right",
-  ".part-right",
-  ".zan-wap",
-  ".zan-wap ~ *",
-  ".relate-news",
-  ".relate-news ~ *",
-  ".p2-nav-wap",
-  ".p2-nav-wap ~ *",  
-]
-
-["www.zhihu.com"]
-select = ['.QuestionHeader-content', '.Question-mainColumn']
-hide = ['.QuestionHeader-topics', '.Question-mainColumnLogin']
-
-["finance.ifeng.com"]
-select = [
-  "#artical",
-  "h1",
-  '[class^="index_infoboxLink_"]',
-  '[class^="index_main_content_"]',
-]
-hide = ['.share', '#artical_real ~ *']
-
+cleanParams = []
 
 ["politics.people.com.cn"]
-select = ['.text_title', '#rwb_zw', 'section.left']
-hide = ['#ops_share', 'aside.tools',
+select = [
+  '.text_title',
+  '#rwb_zw',
+  'section.left',
+]
+hide = [
+  '#ops_share',
+  'aside.tools',
   'a[href="http://mms.people.com.cn/GB/"]',
   '#p_content ~ *',
   '.message',
   '.message ~ *',
 ]
+cleanParams = []
 
-["finance.people.com.cn"]
+["s.weibo.com"]
 select = [
-  "div.col:has(h1)",
-  "h1",
-  ".author",
-  ".channel",
-  ".rm_txt_con",
+  '.ai_module',
+  '.card-wrap',
 ]
 hide = [
-  'div.edit ~ *',
-  "div.rm_relevant",
-  "div.rm_relevant ~ *",
+  '.operate_area',
+  '.material_status_text',
+  '.wbicon',
 ]
-
-
-["china.caixin.com"]
-select = ['#the_content']
-hide = ['.pip', 'a.pc-aivoice', 'p.aitt', '#chargeWall', '#chargeWall ~ *']
-
-["m.ebrun.com"]
-select = ['article']
-hide = ['.ai-quick-read']
-
-["cn.wsj.com"]
-select = [
-  '.article-container',
-  'div[data-testid^="bigtop-headline"]',
-  "#big-top-caption",
-  "article",
-]
-hide = [
-  "nav",
-  "#cx-snippet-overlay-sign-in-text",
-  "#cx-snippet-overlay-sign-in-text ~ *",
-  ".aside-container",
-  ".article-body-tools",
-  "article section ~ *",
-  'div[aria-label="Most Popular News"]',
-  'div:has(section) ~ *',
+cleanParams = [
+  'Refer',
 ]
 
 ["simonwillison.net"]
-select = ['#primary .entryPage']
-hide = ['.entryFooter a:first-child ~ *']
-
-
-["www.reddit.com"]
-select = ['#main-content']
-hide = []
-
-
-["m.huxiu.com"]
-select = ['#m-article-detail-page .js-mask-box']
-hide = ['.neirong-shouquan']
-
-["www.huxiu.com"]
-select = ['#js-article-read-wrap']
-
-["www.quora.com"]
-select = ['#mainContent']
-hide = [
-  'div[class*="_related_questions"]',
-]
-
-["news.cnstock.com"]
-select = ['#pager-content']
-hide = []
-
-["www.cnstock.com"]
-select = ['div[class^="index_leftcontent_"] div[class^="index_wrapper_"]']
-hide = [
-  '.ant-dropdown-trigger',
-  'div[class^="index_bottomBox_"]',
-  'div[class^="index_bottomBox_"] ~ *',
-  '#commentWrapper'
-]
-
-["www.guancha.cn"]
-select = ['.left-main']
-hide = [
-  'div.author-intro > a',
-  '.share',
-  '#comments-container ~ *',
-  '.accusation',
-  '.shared-comment',
-  'a.comment', 
-  'a.recommend',
-  'a.collection',
-  '.who-recommend',
-  '#comments-container-kuang',
-  '.cmt-top-pic',
-  '.comment-component',
-  '.cmt-desc',
-  '.tab-control',
-]
-
-["en.wikipedia.org"]
-select = ['#content']
-hide = [
-    '.vector-dropdown',
-    '.vector-page-toolbar',
-    '.vector-column-end',
-    '.vector-body-before-content',
-]
-
-["www.v2ex.com"]
 select = [
-  "#Main .box",
+  '#primary .entryPage',
 ]
 hide = [
-  '#reply-box',
-  '#reply-box ~ *',
-  '#Rightbar',
-  'a[onclick^="reply"]',
-  'img.avatar',
+  '.entryFooter a:first-child ~ *',
 ]
+cleanParams = []
 
-
-["www.news.cn"]
+["spaces.ac.cn"]
 select = [
-  ".header-cont",
-  ".main-left",
-  ".conbox",
+  '.Post',
+  '#comments .AllComments',
 ]
 hide = [
-  '.pageShare'
+  '#content_tips',
+  '#content_tips ~ *',
 ]
+cleanParams = []
 
-
-["www.zaobao.com.sg"]
-select = ['article']
-hide = ['button', 
-    '.paywall-container', 
-    'article .articleBody ~ *', 
-    '.sticky',
-    'a[href*="facebook"]',
-    'a[href*="twitter"]',
-    'a[href*="wechat"]',
-    'a[href*="whatsapp"]',
-    'a[href*="/share/"]',
-    'a[href^="mailto"]',
-]
-
-["m.eeo.com.cn"]
-select = [".contact"]
-hide = [".contact .t-bottom ~ *", "a.onfocus"]
-
-["www.163.com"]
+["stcn.com"]
 select = [
-  ".post_main",
+  '.column-810',
 ]
 hide = [
-  "#no-tie",
-  ".post_crumb",
-  ".post_jubao",
-  ".post_top",
-  ".post_author",
-  "#post_comment_area",
-  ".post_recommends",
-  ".tie-areas",
-  "#tie", ".post_statement", ".post_next"
+  '.detail-content-tags',
+  '.detail-content-tags ~ *',
 ]
+cleanParams = []
 
-["www.21jingji.com"]
+["stock.10jqka.com.cn"]
 select = [
-  ".main", 
-  'div:has(> h2)'
-]
-hide = ['.detailShare', '.share-wrap']
-
-["www.thepaper.cn"]
-select = ['div[class^="index_wrapper_"]:has(h1)']
-hide = [
-    'div[class*="copyrightBox"]',
-    'div[class*="bottomBox"]',
-    'div[class^="index_audio_"]',
-    '.ant-dropdown-trigger',
-]
-
-
-["www.investing.com"]
-select = ['div.flex-col:has(#articleTitle)']
-hide = [
-    'div[data-test="contextual-subscription-hook"]',
-    'div.flex-col:has(#articleTitle) #comments ~ *',
-    '.sticky',
-    'div.text-center:has(a[id^="article-ad-disclosure"])',
-    'div[data-ad-label="Advertisement"]',
-]
-
-["news.qq.com"]
-select = [
-  ".content-article",
+  '.main-fl',
 ]
 hide = [
-  ".statement",
-  ".qqcom-follow-button",
-  ".author-avatar"
+  '.dianzan',
+  '.share-bottom',
+  '.politics-hide',
 ]
-
-["news.cnal.com"]
-select = ['.col-xs-9:has(h1)']
-hide = ['.cnal-collection-con', '.cnal-collection-con ~ *']
-
-["x.com"]
-select = ['div[aria-label^="Timeline: Conversation"]']
-hide = ['button[aria-label="Translate post"]', 
-    'div[aria-live="polite"]',
-    'div[data-testid="inline_reply_offscreen"]', 
-    'div[aria-label^="Timeline"] h2', 
-    'div[data-testid="cellInnerDiv"]:has(h2) ~ *',
-    'div[data-testid="cellInnerDiv"] h2 ~ *',
-    ]
+cleanParams = []
 
 ["tech.ifeng.com"]
 select = [
@@ -443,25 +330,597 @@ hide = [
   'div[class^="index_vote_box"]',
   '#articleBottomAdAuto',
   'div[class^="index_comment_box"]',
-  'div[class*="_copyRight_"]'
+  'div[class*="_copyRight_"]',
 ]
 cleanParams = []
 
+["www.163.com"]
+select = [
+  '.post_main',
+]
+hide = [
+  '#no-tie',
+  '.post_crumb',
+  '.post_jubao',
+  '.post_top',
+  '.post_author',
+  '#post_comment_area',
+  '.post_recommends',
+  '.tie-areas',
+  '#tie',
+  '.post_statement',
+  '.post_next',
+]
+cleanParams = []
+
+["www.21jingji.com"]
+select = [
+  '.main',
+  'div:has(> h2)',
+]
+hide = [
+  '.detailShare',
+  '.share-wrap',
+]
+cleanParams = []
+
+["www.anthropic.com"]
+select = [
+  '#main-content',
+]
+hide = [
+  'article ~ *',
+  'div[class^="ToutCallout"]',
+]
+cleanParams = []
+
+["www.bloomberg.com"]
+select = [
+  '[class^="gridLayout_topContent_"]',
+  '[class^="gridLayout_featureTopContent_"]',
+  'h1',
+  '[class^="BasicByline_byline__"]',
+  '[class^="styles_ledeContainer_"]',
+  '[class^="gridLayout_centerContent_"]',
+  '[class^="styles_body_"]',
+  '#article-container',
+  '[class^="FeatureContent_body_"]',
+]
+hide = [
+  '[class^="AuthorBio_"]',
+  'section.css--recirc-wrapper',
+]
+cleanParams = []
+
+["www.cnstock.com"]
+select = [
+  'div[class^="index_leftcontent_"] div[class^="index_wrapper_"]',
+]
+hide = [
+  '.ant-dropdown-trigger',
+  'div[class^="index_bottomBox_"]',
+  'div[class^="index_bottomBox_"] ~ *',
+  '#commentWrapper',
+]
+cleanParams = []
+
+["www.economist.com"]
+select = [
+  'main#content',
+]
+hide = [
+  '#article-tags',
+  '#article-tags ~ *',
+  'div:has(> #article-tags) ~ *',
+  'div[data-testid="morefrom-sectionheader"]',
+  'div[data-testid="morefrom-sectionheader"] ~ *',
+  'i:has(a[href^="https://www.economist.com/newsletters/"])',
+]
+cleanParams = []
+
+["www.gamelook.com.cn"]
+select = [
+  '.entry-head',
+  '.entry-content',
+]
+hide = [
+  '.entry-fontsize',
+  '.entry-copyright',
+]
+cleanParams = []
+
+["www.guancha.cn"]
+select = [
+  '.left-main',
+]
+hide = [
+  'div.author-intro > a',
+  '.share',
+  '#comments-container ~ *',
+  '.accusation',
+  '.shared-comment',
+  'a.comment',
+  'a.recommend',
+  'a.collection',
+  '.who-recommend',
+  '#comments-container-kuang',
+  '.cmt-top-pic',
+  '.comment-component',
+  '.cmt-desc',
+  '.tab-control',
+]
+cleanParams = []
+
+["www.huxiu.com"]
+select = [
+  '#js-article-read-wrap',
+]
+hide = []
+cleanParams = []
+
+["www.investing.com"]
+select = [
+  'div.flex-col:has(#articleTitle)',
+]
+hide = [
+  'div[data-test="contextual-subscription-hook"]',
+  'div.flex-col:has(#articleTitle) #comments ~ *',
+  '.sticky',
+  'div.text-center:has(a[id^="article-ad-disclosure"])',
+  'div[data-ad-label="Advertisement"]',
+]
+cleanParams = []
+
+["www.news.cn"]
+select = [
+  '.header-cont',
+  '.main-left',
+  '.conbox',
+]
+hide = [
+  '.pageShare',
+]
+cleanParams = []
+
+["www.newyorker.com"]
+select = [
+  'article',
+]
+hide = []
+cleanParams = []
+
+["www.quora.com"]
+select = [
+  '#mainContent',
+]
+hide = [
+  'div[class*="_related_questions"]',
+]
+cleanParams = []
+
+["www.reddit.com"]
+select = [
+  '#main-content',
+]
+hide = []
+cleanParams = []
+
+["www.reuters.com"]
+select = [
+  'article',
+  '[class^="article__content_"]',
+  '[class^="article-module__content"]',
+]
+hide = [
+  '[class*="article-body__trust-badge_"]',
+  '[class*="article-body__trust-badge_"] ~ div',
+  'nav',
+  '[class*="license-content-button"]',
+  'a[data-testid="LicenceContentButton"]',
+  'p[class*="article-body-module__trust-badge_"]',
+  '.other-stories-container',
+  'div[class*="read-next"]',
+]
+cleanParams = []
+
+["www.thepaper.cn"]
+select = [
+  'div[class^="index_wrapper_"]:has(h1)',
+]
+hide = [
+  'div[class*="copyrightBox"]',
+  'div[class*="bottomBox"]',
+  'div[class^="index_audio_"]',
+  '.ant-dropdown-trigger',
+]
+cleanParams = []
+
+["www.v2ex.com"]
+select = [
+  '#Main .box',
+]
+hide = [
+  '#reply-box',
+  '#reply-box ~ *',
+  '#Rightbar',
+  'a[onclick^="reply"]',
+  'img.avatar',
+]
+cleanParams = []
+
+["www.wsj.com"]
+select = [
+  'main',
+]
+hide = [
+  'article ~ *',
+  'section ~ *',
+  '#cx-snippet-overlay-sign-in-text',
+  '#cx-snippet-overlay-sign-in-text ~ *',
+]
+cleanParams = []
+
+["www.xinhuanet.com"]
+select = [
+  'div.header',
+  'div.main',
+]
+hide = [
+  '.news-link',
+  '.news-position',
+  'div.header-top',
+  '.fllow1-wap',
+  '.pageShare',
+  '.relatedNews',
+  '.relatedNews ~ *',
+  '.ad_right',
+  '.foot',
+  '.adv',
+  '.main-right',
+  '.part-right',
+  '.zan-wap',
+  '.zan-wap ~ *',
+  '.relate-news',
+  '.relate-news ~ *',
+  '.p2-nav-wap',
+  '.p2-nav-wap ~ *',
+]
+cleanParams = []
+
+["www.zaobao.com.sg"]
+select = [
+  'article',
+]
+hide = [
+  'button',
+  '.paywall-container',
+  'article .articleBody ~ *',
+  '.sticky',
+  'a[href*="facebook"]',
+  'a[href*="twitter"]',
+  'a[href*="wechat"]',
+  'a[href*="whatsapp"]',
+  'a[href*="/share/"]',
+  'a[href^="mailto"]',
+]
+cleanParams = []
+
+["www.zhihu.com"]
+select = [
+  '.QuestionHeader-content',
+  '.Question-mainColumn',
+]
+hide = [
+  '.QuestionHeader-topics',
+  '.Question-mainColumnLogin',
+]
+cleanParams = []
+
+["x.com"]
+select = [
+  'div[aria-label^="Timeline: Conversation"]',
+]
+hide = [
+  'button[aria-label="Translate post"]',
+  'div[aria-live="polite"]',
+  'div[data-testid="inline_reply_offscreen"]',
+  'div[aria-label^="Timeline"] h2',
+  'div[data-testid="cellInnerDiv"]:has(h2) ~ *',
+  'div[data-testid="cellInnerDiv"] h2 ~ *',
+]
+cleanParams = []
 
 ["xueqiu.com"]
 select = [
-  ".article__container",
-  ".article__author",
-  "article",
-  ".comment__list",
-  ".modal_content",
+  '.article__container',
+  '.article__author',
+  'article',
+  '.comment__list',
+  '.modal_content',
 ]
 hide = [
-  "div.article__author a.avatar",
-  ".ai_abstract_feedback",
+  'div.article__author a.avatar',
+  '.ai_abstract_feedback',
+]
+cleanParams = []
+
+["*.substack.com"]
+select = [
+  '.post-content',
+]
+hide = []
+cleanParams = []
+
+["auto-time.36kr.com"]
+select = [
+  '.kr-layout-left',
+]
+hide = []
+cleanParams = []
+
+["cj.sina.com.cn"]
+select = [
+  'h1',
+  '#top_bar_wrap',
+  '#artibody',
+]
+hide = []
+cleanParams = []
+
+["cn.nytimes.com"]
+select = [
+  'article.article-content',
+]
+hide = []
+cleanParams = []
+
+["finance.eastmoney.com"]
+select = [
+  '.contentwrap',
+]
+hide = [
+  '.mainright',
+  '.pinglunbox',
+  '.zwothers',
+  '.gopinluntxt',
+  '.aboutctrl',
+  'a[href^="https://acttg.eastmoney.com/pub/webtg_hskh_act_zixun"]',
+]
+cleanParams = []
+
+["gu.qq.com"]
+select = [
+  '#news-body',
+]
+hide = []
+cleanParams = []
+
+["news.10jqka.com.cn"]
+select = [
+  '.main-fl',
+]
+hide = [
+  '.dianzan',
+  '.share-bottom',
+  '.politics-hide',
+]
+cleanParams = []
+
+["news.mydrivers.com"]
+select = [
+  '#main_contents',
+]
+hide = [
+  '.zhuanzai',
+  '.zhuanzai ~ div',
+  '.zhuanzai ~ p',
+  '.navs_newsinfo',
+  '.navs_newsinfo ~ div',
+  'a[href*="copyNewsUrl"]',
+]
+cleanParams = []
+
+["stock.finance.sina.com.cn"]
+select = [
+  '.ml',
+  '.content',
+]
+hide = []
+cleanParams = []
+
+["stock.jrj.com.cn"]
+select = [
+  '.article',
+]
+hide = []
+cleanParams = []
+
+["wallstreetcn.com"]
+select = [
+  'article',
+]
+hide = [
+  'img.avatar',
+  'div.rich-text div',
+]
+cleanParams = []
+
+["weibo.com"]
+select = [
+  'article',
+  '[class^="RepostCommentList_"]',
+  '.main_editor',
+]
+hide = [
+  '[class^="Reward_box_"]',
+  '[class^="toolbar_share"]',
+  '#composerEle',
+  '[class^="Bottom_text_"]',
+  '.woo-tip-text',
+  '[class*="translate_opt"]',
+  '.del',
+  '.userbox',
+]
+cleanParams = [
+  'continueFlag',
+  'pagetype',
+  'refer_flag',
+  '_wb_client_',
+  'ua',
+  'wvr',
+  'mod',
+  'type',
 ]
 
-["36kr.com"]
-select = ['.article-mian-content']
-hide = ['.article-footer-txt']
+["www.bbc.com"]
+select = [
+  'main',
+  'article',
+]
+hide = [
+  '#popover-wrapper',
+]
+cleanParams = []
 
+["www.cb.com.cn"]
+select = [
+  '.p_x_20:has(h1)',
+]
+hide = []
+cleanParams = []
+
+["www.chinanews.com"]
+select = [
+  '.left_txt',
+]
+hide = [
+  '.left_time > span',
+  '.left_time > span ~ *',
+  'div.left_zw ~ *',
+  '.left_more',
+]
+cleanParams = []
+
+["www.cls.cn"]
+select = [
+  '.f-l:has(.detail-content)',
+]
+hide = [
+  '.detail-option-box',
+  '.new-comment',
+  '.detail-option-box ~ div',
+  '.detail-stock-box',
+]
+cleanParams = []
+
+["www.cnr.cn"]
+select = [
+  '.article',
+]
+hide = [
+  '.article-copyright',
+  '.article-copyright ~ *',
+  '#article-func',
+]
+cleanParams = []
+
+["www.eeo.com.cn"]
+select = [
+  '.xd-b-left',
+]
+hide = [
+  '.onfocus',
+  '.xd-a-left',
+  '.right_ewm',
+  '#phoneBtn',
+  '.xd-lj',
+  '.foot_ad',
+  '.foot_ad ~ *',
+]
+cleanParams = []
+
+["www.jiemian.com"]
+select = [
+  '.article-view',
+]
+hide = [
+  '.comment-view',
+  '.news-next',
+  '.navbar-container',
+  'a[href^="https://www.jiemian.com/about/copyright"]',
+]
+cleanParams = []
+
+["www.nbd.com.cn"]
+select = [
+  '.g-article',
+]
+hide = []
+cleanParams = []
+
+["www.nytimes.com"]
+select = [
+  'article#story header',
+  'article#story section.meteredContent',
+  '.article-content-container',
+  '[class^="Article_ArticleHeader_"]',
+]
+hide = [
+  '#bottom-sheet-sensor',
+  '#styln-guide',
+  '[aria-live="polite"]',
+  'div[role="toolbar"]',
+  '#content-recommendation-root',
+  'img',
+  '#c-col-editors-picks',
+]
+cleanParams = []
+
+["www.sohu.com"]
+select = [
+  '.text',
+]
+hide = [
+  '.statement',
+  '#bannedNotice',
+  '#bannedNotice ~ div',
+]
+cleanParams = []
+
+["www.stcn.com"]
+select = [
+  '.column-810',
+]
+hide = [
+  '.detail-content-tags',
+  '.stock-tags',
+  '.detail-content-statement',
+  '#comment',
+  '.list-page-tab',
+  'div.list-page-tab + ul',
+]
+cleanParams = []
+
+["www.yicai.com"]
+select = [
+  '.m-text',
+]
+hide = [
+  '.statement',
+  '.person',
+  '#jb_report',
+  '.hashot',
+  '.hasspeech',
+  '.m-floating',
+]
+cleanParams = []
+
+["zhuanlan.zhihu.com"]
+select = [
+  'article',
+]
+hide = [
+  'img.Avatar',
+  '.TopicList',
+]
+cleanParams = []
