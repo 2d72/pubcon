@@ -398,6 +398,9 @@ select = [
 hide = [
   '[class^="AuthorBio_"]',
   'section.css--recirc-wrapper',
+  'div[class*="_shareBookmarkMobile_"]',
+  'div[class*="_shareBottom_"]',
+  'div[class*="_shareBottom_"] ~ *',
 ]
 cleanParams = []
 
