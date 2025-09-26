@@ -419,13 +419,17 @@ select = [
   '[class^="FeatureContent_body_"]',
 ]
 hide = [
+  'aside',
   '[class^="AuthorBio_"]',
   'section.css--recirc-wrapper',
   'div[class*="_shareBookmarkMobile_"]',
   'div[class*="_shareBottom_"]',
   'div[class*="_shareBottom_"] ~ *',
+  'p[class*="Disclaimer"]',
+  'p:has(a[href*="www.bloomberg.com/account/newsletters/opinion-today"])',
 ]
 cleanParams = []
+
 
 ["www.cnstock.com"]
 select = [
