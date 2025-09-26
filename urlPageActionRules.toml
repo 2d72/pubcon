@@ -1,3 +1,11 @@
+["www.theguardian.com"]
+select = ['article']
+hide = [
+  'aside',
+  'div[data-gu-name="right-column"]',
+  'div[data-print-layout="hide"]',
+]
+
 ["nypost.com"]
 select = [
   'article', 
