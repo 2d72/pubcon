@@ -791,6 +791,8 @@ select = [
 ]
 hide = [
   '#popover-wrapper',
+  'article ~ *',
+  'div[data-component="tags"]',
 ]
 cleanParams = []
 
