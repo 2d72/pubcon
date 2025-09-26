@@ -1,3 +1,6 @@
+["openai.com"]
+select = ["article"]
+
 ["www.theguardian.com"]
 select = ['article']
 hide = [
