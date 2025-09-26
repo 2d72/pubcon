@@ -1,3 +1,15 @@
+["nypost.com"]
+select = [
+  'article', 
+]
+hide = [
+  'aside',
+  'footer',
+  'footer ~ *',
+  '.single__footer',
+]
+
+
 ["business.sohu.com"]
 select = ['.text']
 hide = [
