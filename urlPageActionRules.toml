@@ -953,6 +953,7 @@ hide = [
   '.hashot',
   '.hasspeech',
   '.m-floating',
+  '.m-smallshare',
 ]
 cleanParams = []
 
