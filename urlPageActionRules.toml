@@ -1,3 +1,10 @@
+["*.cnfol.com"]
+select = ['.artMain']
+hide = [
+  '.EnterBtn2',
+  '.Article ~ *',
+]
+
 ["openai.com"]
 select = ["article"]
 
