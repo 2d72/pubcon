@@ -683,12 +683,16 @@ hide = [
 ]
 cleanParams = []
 
+
 ["*.substack.com"]
 select = [
   '.post-content',
+  'article',
+  '.comment-list-items'
 ]
 hide = []
 cleanParams = []
+
 
 ["auto-time.36kr.com"]
 select = [
