@@ -94,6 +94,7 @@ hide = [
   'article section ~ *',
   'div[aria-label="Most Popular News"]',
   'div:has(section) ~ *',
+  'div[data-type="inset"]',
 ]
 cleanParams = []
 
