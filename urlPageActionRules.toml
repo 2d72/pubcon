@@ -1,3 +1,11 @@
+["www.theguardian.com"]
+select = ['article']
+hide = [
+  'div[data-gu-name="right-column"]',
+  '#maincontent ~ *',
+  'gu-island',
+]
+
 ["docs.claude.com"]
 select = ['#content-area']
 hide = [
