@@ -1,3 +1,12 @@
+["docs.claude.com"]
+select = ['#content-area']
+hide = [
+  '#page-context-menu',
+  '#next-steps',
+  '#next-steps ~ *',
+ '#content ~ *'
+]
+
 ["*.cnfol.com"]
 select = ['.artMain']
 hide = [
