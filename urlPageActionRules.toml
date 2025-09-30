@@ -412,6 +412,7 @@ select = [
 hide = [
   'article ~ *',
   'div[class^="ToutCallout"]',
+  'section[class*="LandingPageSection"]',
 ]
 cleanParams = []
 
