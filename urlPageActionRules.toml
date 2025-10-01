@@ -1,3 +1,12 @@
+["www.lesswrong.com"]
+select = ['#postBody', '.PostsPage-commentsSection']
+hide = [
+  '.LWPostsPageHeader-topRight',
+  'span[class*="clickToHighlightNewSince"]',
+  'div[class*="expandOptions"]',
+  '#posts-thread-new-comment'
+]
+
 ["threadreaderapp.com"]
 select = [
   '.container .row:has(#tweet_1)',
