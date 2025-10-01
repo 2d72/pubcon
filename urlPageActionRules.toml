@@ -1,3 +1,23 @@
+["threadreaderapp.com"]
+select = [
+  '.container .row:has(#tweet_1)',
+  'article',
+]
+hide = [
+  '.prof-image',
+  'button',
+  'a:has(svg)',
+  '.xscrolly',
+  'form', 
+  '.text-center',
+  '.avatar',
+  'img[alt="Profile picture"]',
+  'img[src^="https://pbs.twimg.com/profile_images/"]',
+  'img[src*="Twitter_Logo"]',
+  '.ribbon-content',
+]
+
+
 ["www.theguardian.com"]
 select = ['article']
 hide = [
