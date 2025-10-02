@@ -1,3 +1,11 @@
+["*.medium.com"]
+select= ['article']
+hide = [
+  'img[data-testid="authorPhoto"]',
+  'article.ed'
+]
+
+
 ["www.lesswrong.com"]
 select = ['#postBody', '.PostsPage-commentsSection']
 hide = [
