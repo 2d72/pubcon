@@ -1,3 +1,19 @@
+["a16z.com"]
+select = [
+  'h1',
+  '.auth',
+  '.container',
+  '.wp-content',
+  '.featured-contributors',
+]
+hide = [
+  '#header',
+  '.aside-col',
+  '.follow-links',
+  '.featured-contributors ~ *',
+  '#footer'
+]
+
 ["www.scmp.com"]
 select = ['article']
 hide = [
