@@ -1,3 +1,12 @@
+["a16zcrypto.com"]
+select = ['section', 'div[data-target="content"]']
+hide = [
+  'p > em > span',
+  'p > i > span',
+]
+
+
+
 ["a16z.com"]
 select = [
   'h1',
