@@ -1,3 +1,12 @@
+["www.scmp.com"]
+select = ['article']
+hide = [
+  'div[data-qa*="TopicAndSection"]',
+  'div[data-qa*="ReadingTime"]',
+  'div[data-qa*="ActionWidgets"]',
+  'a[href*="/policies-and-standards"]'
+]
+
 ["*.medium.com"]
 select= ['article']
 hide = [
