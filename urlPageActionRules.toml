@@ -1,3 +1,10 @@
+["weread.qq.com"]
+select = ['.bookInfo_right', '.reader_bestBookMark_container']
+hide = ['button']
+cleanParams = []
+
+
+
 ["a16zcrypto.com"]
 select = ['section', 'div[data-target="content"]']
 hide = [
