@@ -513,8 +513,10 @@ hide = [
 ]
 cleanParams = []
 
+
 ["www.bloomberg.com"]
 select = [
+  'main',
   '[class^="gridLayout_topContent_"]',
   '[class^="gridLayout_featureTopContent_"]',
   'h1',
@@ -527,6 +529,7 @@ select = [
 ]
 hide = [
   'aside',
+  'figure',
   '[class^="AuthorBio_"]',
   'section.css--recirc-wrapper',
   'div[class*="_shareBookmarkMobile_"]',
@@ -534,6 +537,21 @@ hide = [
   'div[class*="_shareBottom_"] ~ *',
   'p[class*="Disclaimer"]',
   'p:has(a[href*="www.bloomberg.com/account/newsletters/opinion-today"])',
+  'div[class^="FeatureContent_footerWrapper"]',
+  'div[class^="FeatureContent_body] ~ *',
+  'div[data-component="recirc"]',
+  'div[data-component="recirc"] ~ *',
+  'div[class^="gridLayout_rightContent_]',
+  'div[data-component="customizable-tickers"]',
+  'a[data-component="terminal-tout"]',
+  'p:has(a[href^="https://www.bloomberg.com/account/newsletters/bloomberg"])', 
+  'div[data-component="eyebrow"]',
+  'div[class^="BasicContent_bookmarkSpeech"]',
+  'p[data-component="assistance"] ~ *',
+  '.article-table',
+  'div[class*="_leftContent_"]',
+  'div[data-component="weekend-redirect-tout"]', 
+  'p:has(a[href^="https://www.bloomberg.com/newsletters"])'
 ]
 cleanParams = []
 
