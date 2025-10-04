@@ -94,11 +94,21 @@ hide = [
 ]
 
 ["*.cnfol.com"]
-select = ['.artMain']
+select = [
+  '.artMain',
+  '.main'
+]
 hide = [
   '.EnterBtn2',
+  '.appBtn',
+  '.bshare-custom',
+  'a[href^="/user/"]',
   '.Article ~ *',
+  '.LabelBox',
+  '.LabelBox ~ *',
 ]
+cleanParams = []
+
 
 ["openai.com"]
 select = ["article"]
