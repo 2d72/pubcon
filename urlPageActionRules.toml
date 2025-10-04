@@ -969,7 +969,6 @@ hide = [
   '.del',
   '.userbox',
   'div[class^="title"]',
-  'footer'
 ]
 cleanParams = [
   'continueFlag',
