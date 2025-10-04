@@ -241,12 +241,15 @@ cleanParams = []
 
 ["finance.sina.com.cn"]
 select = [
+  '.wrap-inner',
   'h1',
+  '.page-info',
   '#top_bar_wrap',
   '#artibody',
   '.part.m-article',
 ]
 hide = [
+  '.site-header',
   '.hq-finapp-sh',
   '.ct_hqimg',
   '.appCheckLink',
@@ -265,8 +268,14 @@ hide = [
   '#article-bottom ~ *',
   '.article-content-right',
   'span[id^="quote_"]',
+  'div[data-sudaclick="suda_1028_guba"]',
+  'div[data-sudaclick="suda_1028_guba"] ~ *',
+  '.fin_art_weixin',
+  '.fin_art_weixin ~ *',
+  '#articleContent ~ *',
 ]
 cleanParams = []
+
 
 ["github.com"]
 select = [
