@@ -522,6 +522,7 @@ hide = [
   '#tie',
   '.post_statement',
   '.post_next',
+  'blockquote'
 ]
 cleanParams = []
 
