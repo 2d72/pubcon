@@ -1,3 +1,17 @@
+["www.cnbc.com"]
+select = ['.Article']
+hide = [
+  '.SidebarArticle-sidebar',
+  '.ArticleHeader-eyebrow',
+  'img.Author-authorPortrait',
+  '#RegularArticle-RelatedQuotes',
+  'div[data-test="InlineImage"]',
+  'div[class^="RelatedContent"]',
+  'div[data-test="VideoPlaceHolder"]'
+]
+cleanParams = []
+
+
 ["blog.samaltman.com"]
 select = ['#main_container']
 hide = ['footer']
