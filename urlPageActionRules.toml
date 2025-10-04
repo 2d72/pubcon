@@ -1,3 +1,10 @@
+["blog.samaltman.com"]
+select = ['#main_container']
+hide = ['footer']
+cleanParams = []
+
+
+
 ["weread.qq.com"]
 select = ['.bookInfo_right', '.reader_bestBookMark_container']
 hide = ['button']
