@@ -1,3 +1,6 @@
+["mathstodon.xyz"]
+select = ['.scrollable']
+
 ["www.cnbc.com"]
 select = ['.Article']
 hide = [
