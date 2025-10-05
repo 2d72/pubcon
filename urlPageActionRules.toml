@@ -1,3 +1,7 @@
+["news.creaders.net"]
+select = ['#zuo']
+hide = ['.btns', 'a[href="#comment"]', '#newsContent ~ *']
+
 ["papers.ssrn.com"]
 select = ['.box-abstract-main', '.box-paper-statics']
 
