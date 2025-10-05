@@ -1,3 +1,6 @@
+["papers.ssrn.com"]
+select = ['.box-abstract-main', '.box-paper-statics']
+
 ["mathstodon.xyz"]
 select = ['.scrollable']
 
