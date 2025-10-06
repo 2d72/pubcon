@@ -1,3 +1,19 @@
+["news.futunn.com"]
+select = ['.newsDetailBox']
+hide = [
+  'p:has[a[href^="futunn:"]]',
+  'p:has[a[href^="futunn:"]] ~ *',
+  'img.editor-emotion',
+  'img.editor-emotion ~ *',
+  'div[data-href^="futunn:"]',
+  'div[data-href^="futunn:"] ~ *',
+  '.tips-section',
+  '.quickLike',
+  '.quickLike ~ *',
+  '.related-stock-web'
+]
+cleanParams = ['data_ticket', 'level']
+
 ["news.creaders.net"]
 select = ['#zuo']
 hide = ['.btns', 'a[href="#comment"]', '#newsContent ~ *']
