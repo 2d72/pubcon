@@ -997,6 +997,7 @@ hide = [
   '#popover-wrapper',
   'article ~ *',
   'div[data-component="tags"]',
+  'section[data-e2e="scrollable-promos"]'
 ]
 cleanParams = []
 
