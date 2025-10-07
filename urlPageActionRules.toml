@@ -1,3 +1,8 @@
+["www.wired.com"]
+select = ['article']
+hide = []
+cleanParams = []
+
 ["news.futunn.com"]
 select = ['.newsDetailBox']
 hide = [
