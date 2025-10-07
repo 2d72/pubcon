@@ -770,17 +770,22 @@ hide = [
 ]
 cleanParams = []
 
+
 ["www.wsj.com"]
 select = [
   'main',
 ]
 hide = [
+  'nav',
   'article ~ *',
   'section ~ *',
   '#cx-snippet-overlay-sign-in-text',
   '#cx-snippet-overlay-sign-in-text ~ *',
+  'div[data-block="doNotPrint"]',
+  'div[data-block="doNotPrint"] ~ *',
+  '#bpc_archive'
 ]
-cleanParams = []
+
 
 ["www.xinhuanet.com"]
 select = [
