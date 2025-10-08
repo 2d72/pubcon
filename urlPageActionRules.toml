@@ -8,7 +8,7 @@ hide = [
   'td[bgcolor="gray"]',
   '.ad-inarticle-div',
   'i[id^="btn-inarticle-"]',
-  'td[align="center"][style*="color:#fff"]'
+  'td[align="center"][style*="color:#fff"]',
   '#related_list'
 ]
 cleanParams = []
