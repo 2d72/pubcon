@@ -1,3 +1,7 @@
+["www.nber.org"]
+select = ['.page-header']
+hide = ['.share']
+
 ["news.popyard.space"]
 select = ['#wechatbox']
 hide = [
