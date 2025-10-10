@@ -1,3 +1,12 @@
+["www.washingtonpost.com"]
+select = ['main']
+hide = [
+  'div[class*="showDuration"]',
+  'span[data-testid="relative-date"]',
+  '.article-bottom-action-bar ~ *', 
+  '.hide-for-print'
+]
+
 ["www.douban.com"]
 select = ['.article']
 hide = [
