@@ -1,3 +1,15 @@
+["www.douban.com"]
+select = ['.article']
+hide = [
+  '.note_author_avatar', 
+  '#sep', 
+  '.copyright-claim',
+  '.author-avatar', 
+  '.show_login'
+]
+cleanParams = ['_i']
+
+
 ["www.nber.org"]
 select = ['.page-header']
 hide = ['.share']
