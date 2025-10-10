@@ -1041,7 +1041,6 @@ hide = [
   '[class*="translate_opt"]',
   '.del',
   '.userbox',
-  'div[class^="title"]',
 ]
 cleanParams = [
   'continueFlag',
