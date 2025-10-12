@@ -1,3 +1,7 @@
+["www.donews.com"]
+select = ['.general-content-wrapper']
+hide = ['.general-info-right']
+
 ["www.chnfund.com"]
 select = ['.left']
 hide = [
