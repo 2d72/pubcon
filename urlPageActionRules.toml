@@ -1,3 +1,13 @@
+["www.chnfund.com"]
+select = ['.left']
+hide = [
+  'a[tab="innerlink"]',
+  '.relate-articles',
+  '.relate-articles ~ *',
+  'section',
+  'section ~ *'
+]
+
 ["news.ifeng.com"]
 select = ['div[class^="index_artical_"]']
 hide = [
