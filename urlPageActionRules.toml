@@ -274,18 +274,19 @@ cleanParams = [
   'sourceFrom',
 ]
 
-["china.caixin.com"]
-select = [
-  '#the_content',
-]
+["*.caixin.com"]
+select = ['.article']
 hide = [
-  '.pip',
-  'a.pc-aivoice',
+  'img',
+  '.pip', 
+  '.lanmu_textend', 
+  '.media_pic', 
+  '.idetor',
+  '.pc-aivoice',
   'p.aitt',
   '#chargeWall',
   '#chargeWall ~ *',
 ]
-cleanParams = []
 
 ["cn.wsj.com"]
 select = [
