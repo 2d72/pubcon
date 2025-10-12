@@ -1,3 +1,7 @@
+["www.pai.com.cn"]
+select = ['div:has(> h1)']
+hide = ['.related-post', '.related-post ~ *', '#post-body ~ *', 'img']
+
 ["www.donews.com"]
 select = ['.general-content-wrapper']
 hide = ['.general-info-right']
