@@ -1165,11 +1165,14 @@ select = [
 hide = []
 cleanParams = []
 
+
 ["www.nytimes.com"]
 select = [
   'article#story header',
   'article#story section.meteredContent',
   '.article-content-container',
+  '.byline-container',
+  'time',
   '[class^="Article_ArticleHeader_"]',
 ]
 hide = [
@@ -1180,8 +1183,12 @@ hide = [
   '#content-recommendation-root',
   'img',
   '#c-col-editors-picks',
+  'aside',
+  'div[data-testid^="RelatedLinksBlock"]',
+  'div[data-testid^="RelatedLinksBlock"] ~ *',
 ]
 cleanParams = []
+
 
 ["www.sohu.com"]
 select = [
