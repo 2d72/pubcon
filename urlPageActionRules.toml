@@ -1,3 +1,11 @@
+["news.ifeng.com"]
+select = ['div[class^="index_artical_"]']
+hide = [
+  'div[class^="index_copyRight_"]',
+  'div[class^="index_comment_textarea_"]',
+  'div[class^="index_showAllComment"]',
+]
+
 ["www.washingtonpost.com"]
 select = ['main']
 hide = [
