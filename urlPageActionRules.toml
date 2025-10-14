@@ -411,6 +411,7 @@ select = [
   '#repository-container-header',
   'article.markdown-body',
   '.repository-content .Box-body',
+  '.Layout-sidebar'
 ]
 hide = [
   'img.avatar',
