@@ -682,7 +682,8 @@ hide = [
   '.article-table',
   'div[class*="_leftContent_"]',
   'div[data-component="weekend-redirect-tout"]', 
-  'p:has(a[href^="https://www.bloomberg.com/newsletters"])'
+  'p:has(a[href^="https://www.bloomberg.com/newsletters"])', 
+  '.html-newsletter-tout',
 ]
 cleanParams = []
 
