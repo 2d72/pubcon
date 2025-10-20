@@ -711,6 +711,8 @@ hide = [
   'div[data-testid="morefrom-sectionheader"]',
   'div[data-testid="morefrom-sectionheader"] ~ *',
   'i:has(a[href^="https://www.economist.com/newsletters/"])',
+  'aside',
+  'section ~ *'
 ]
 cleanParams = []
 
