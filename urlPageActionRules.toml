@@ -1,3 +1,16 @@
+["fund.eastmoney.com"]
+select = ['.newsContent']
+hide = [
+  '.AboutCtrl',
+  '.res-edit',
+  '.res-edit ~ *',
+  '#comBodyEnd',
+  '#comBodyEnd ~ *',
+  'a[href*="/acttg.eastmoney.com/pub/webtg_"]'
+]
+cleanParams = []
+
+
 ["www.pai.com.cn"]
 select = ['div:has(> h1)']
 hide = ['.related-post', '.related-post ~ *', '#post-body ~ *', 'img']
