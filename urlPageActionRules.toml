@@ -1,3 +1,14 @@
+["www.wenxuecity.com"]
+select = ['main']
+hide = ['aside', '#articleContent ~ *',
+  '.otherposts', '.otherposts ~ *',
+  '.textcontrols',
+  '#infometa',
+  'time ~ *',
+  '#breadcrumb'
+]
+cleanParams = []
+
 ["www.foreignaffairs.com"]
 select = ['article']
 hide = ['.article-tools', 'footer', 'img']
