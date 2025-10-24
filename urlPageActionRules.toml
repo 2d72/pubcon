@@ -1,3 +1,8 @@
+["www.foreignaffairs.com"]
+select = ['article']
+hide = ['.article-tools', 'footer', 'img']
+cleanParams = []
+
 ["fund.eastmoney.com"]
 select = ['.newsContent']
 hide = [
