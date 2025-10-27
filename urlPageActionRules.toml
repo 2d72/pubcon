@@ -1,3 +1,13 @@
+["abcnews.go.com"]
+select = ['.FITT_Article_main__body']
+hide = [
+  'div[class*="Article__Footer"]',
+  'section'
+]
+cleanParams = []
+
+
+
 ["www.cbsnews.com"]
 select = ['article']
 hide = ['aside', 'section[class="content__body--footer"]', 'footer']
