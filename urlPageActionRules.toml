@@ -1,3 +1,17 @@
+["*.yahoo.com"]
+select = ['article']
+hide = [
+  '.read-more-vendor',
+  'a[data-ylk*="slk:"]',
+  '.bg-card-bg-1',
+  '.recommendation-contents',
+  'img',
+  'button'
+]
+cleanParams = []
+
+
+
 ["money.udn.com"]
 select = ['section.article-main']
 hide = [
