@@ -1,3 +1,9 @@
+["www.zhongcai.com"]
+select = ['.fxmain_right']
+hide = ['.newscate']
+cleanParams = []
+
+
 ["*.yahoo.com"]
 select = ['article']
 hide = [
