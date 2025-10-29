@@ -1,3 +1,17 @@
+["money.udn.com"]
+select = ['section.article-main']
+hide = [
+  'nav',
+  'section[class*="social-bar"]',
+  '.article-length',
+  '#article_body ~ *',
+  '.article-keyword',
+  '.article-extend',
+  '.article-extend ~ *'
+]
+cleanParams = ['from']
+
+
 ["abcnews.go.com"]
 select = ['.FITT_Article_main__body']
 hide = [
