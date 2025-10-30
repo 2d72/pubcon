@@ -891,11 +891,13 @@ select = [
 hide = []
 cleanParams = []
 
+
 ["www.reuters.com"]
 select = [
   'article',
   '[class^="article__content_"]',
   '[class^="article-module__content"]',
+  '[data-testid="LivePage"]'
 ]
 hide = [
   '[class*="article-body__trust-badge_"]',
@@ -906,8 +908,10 @@ hide = [
   'p[class*="article-body-module__trust-badge_"]',
   '.other-stories-container',
   'div[class*="read-next"]',
+  '[class*="end-content-module__trust-badge_"]'
 ]
 cleanParams = []
+
 
 ["www.thepaper.cn"]
 select = [
