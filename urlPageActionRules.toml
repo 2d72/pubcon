@@ -1,3 +1,15 @@
+["www.nbcnews.com"]
+select = ['article']
+hide = [
+  '.avatarThumbnail',
+  '.recommended-intersection-ref',
+  '.live-flag'
+]
+cleanParams = []
+
+
+
+
 ["*.stockstar.com"]
 select = ['.ts', '#Detail']
 hide = [
