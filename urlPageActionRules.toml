@@ -1,3 +1,15 @@
+["www.gelonghui.com"]
+select = ['.article-detail']
+hide = [
+  '.breadcrumb',
+  '.article-read',
+  '.declare',
+  '.declare ~ *'
+]
+cleanParams = []
+
+
+
 ["www.nbcnews.com"]
 select = ['article']
 hide = [
