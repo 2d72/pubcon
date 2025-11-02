@@ -1,3 +1,21 @@
+["*.douban.com"]
+select = ['#wrapper']
+hide = [
+  'img',
+  '#interest_sect_level',
+  '.gtleft',
+  '.tips-mod',
+  '.mod-hd',
+  '.nav-tab',
+  '.create-review',
+  '#db-discussion-section',
+  '#db-discussion-section ~ *',
+  '#footer',
+  'p.pl'
+]
+cleanParams = []
+
+
 ["www.gelonghui.com"]
 select = ['.article-detail']
 hide = [
