@@ -1061,6 +1061,7 @@ cleanParams = []
 ["x.com"]
 select = [
   'div[aria-label^="Timeline: Conversation"]',
+  'div[aria-label="Grok Conversation"]'
 ]
 hide = [
   'button[aria-label="Translate post"]',
