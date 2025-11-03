@@ -1192,7 +1192,6 @@ select = [
 ]
 hide = [
   'img.avatar',
-  'div.rich-text div',
 ]
 cleanParams = []
 
