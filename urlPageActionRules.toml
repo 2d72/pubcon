@@ -1,3 +1,16 @@
+["www.tomshardware.com"]
+select = ['article']
+hide = [
+  'nav',
+  'aside',
+  '#articleTag',
+  '.xenforo-comments-see-all',
+  '.xf-comment-reply',
+  '.xenforo-comments-view-all-button'
+]
+cleanParams = []
+
+
 ["*.douban.com"]
 select = ['#wrapper']
 hide = [
