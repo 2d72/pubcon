@@ -459,7 +459,7 @@ hide = [
 ]
 cleanParams = []
 
-["en.wikipedia.org"]
+["*.wikipedia.org"]
 select = [
   '#content',
 ]
