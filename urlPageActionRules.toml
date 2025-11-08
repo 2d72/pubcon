@@ -545,6 +545,8 @@ hide = [
   '.fin_art_weixin',
   '.fin_art_weixin ~ *',
   '#articleContent ~ *',
+  'a[href*="sina.com.cn/focus/app"]',
+  '#app-kaihu-fund'
 ]
 cleanParams = []
 
