@@ -1,3 +1,10 @@
+["blog.google"]
+select = ['article']
+hide = ['img', '.article-tags']
+cleanParams = []
+
+
+
 ["www.tomshardware.com"]
 select = ['article']
 hide = [
