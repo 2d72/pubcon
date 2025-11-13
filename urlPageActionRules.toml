@@ -1063,7 +1063,7 @@ hide = [
   'a[href*="/share/"]',
   'a[href^="mailto"]',
 ]
-cleanParams = []
+cleanParams = ['ref']
 
 
 ["www.zhihu.com"]
