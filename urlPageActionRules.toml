@@ -1,3 +1,14 @@
+["yinwang.org"]
+select = ['article']
+hide = [
+  'a[href^="/tags/"]',
+  'footer',
+  'footer ~ *'
+]
+cleanParams = []
+
+
+
 ["blog.google"]
 select = ['article']
 hide = ['img', '.article-tags']
