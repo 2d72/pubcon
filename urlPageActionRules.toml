@@ -1,3 +1,22 @@
+["baike.baidu.com"]
+select = ['#J-lemma-main-wrapper']
+hide = [
+  'div[class^="btnList_"]',
+  'div[class^="polysemantText"]',
+  'img',
+  'div[class^="topToolsWrap"]',
+  '.ttsBtn_GREEd',
+  '.editLemma_d5a0W',
+  'div[class^="albumList"]',
+  'div[class^="albumList"] ~ *',
+  '#J-bottom-recommend-wrapper',
+  '#J-bottom-recommend-wrapper ~ *',
+  '#J-lemma-video-list',
+  '#side',
+  'div[class^="videoWrap"]'
+]
+cleanParams = []
+
 ["yinwang.org"]
 select = ['article']
 hide = [
