@@ -1,3 +1,19 @@
+["www.whatsonweibo.com"]
+select = ['#mvp-post-content']
+hide = [
+  '.mvp-post-cat',
+  '#mvp-soc-mob-wrap',
+  '._footer',
+  '._footer ~ *',
+  '.mvp-post-tags',
+  '#mvp-prev-next-wrap',
+  '#mvp-prev-next-wrap ~ *',
+  '#mvp-related-posts',
+  '#mvp-related-posts ~ *'
+]
+cleanParams = []
+
+
 ["baike.baidu.com"]
 select = ['#J-lemma-main-wrapper']
 hide = [
