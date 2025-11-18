@@ -157,13 +157,17 @@ hide = [
 ]
 cleanParams = []
 
-
-
 ["www.cbsnews.com"]
-select = ['article']
-hide = ['aside', 'section[class="content__body--footer"]', 'footer']
+select = [
+  'article',
+]
+hide = [
+  'aside',
+  'section[class="content__body--footer"]',
+  'footer',
+  '.card-recirc'
+]
 cleanParams = []
-
 
 ["www.wenxuecity.com"]
 select = ['main']
