@@ -1295,6 +1295,7 @@ cleanParams = [
   'mark_id',
 ]
 
+
 ["www.bbc.com"]
 select = [
   'main',
@@ -1304,9 +1305,12 @@ hide = [
   '#popover-wrapper',
   'article ~ *',
   'div[data-component="tags"]',
-  'section[data-e2e="scrollable-promos"]'
+  'section[data-e2e="scrollable-promos"]',
+  'div[data-testid="consentBanner"]'
 ]
 cleanParams = []
+
+
 
 ["www.cb.com.cn"]
 select = [
