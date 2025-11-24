@@ -1,3 +1,15 @@
+["www.forbes.com"]
+select = ['main']
+hide = [
+  'div[data-testid="bottomContributorBlock"]',
+  'div[data-testid="bottomContributorBlock"] ~ *',
+  'div[data-testid="vetted-more-from-forbes-block"]',
+  'div[data-testid="vetted-more-from-forbes-block"] ~ *',
+  '.article-body ~ *'
+]
+cleanParams = []
+
+
 ["www.whatsonweibo.com"]
 select = ['#mvp-post-content']
 hide = [
