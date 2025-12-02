@@ -1,3 +1,18 @@
+["www.ft.com"]
+select = ['.article-content']
+hide = [
+  '.o-topper__tags',
+  '.article-comment-count',
+  'img',
+  'button',
+  'article ~ *',
+  '.article-tools',
+  '.article-tools ~ *'
+]
+cleanParams = ['utm_social_handle_id', 'utm_social_post_id']
+
+
+
 ["www.forbes.com"]
 select = ['main']
 hide = [
