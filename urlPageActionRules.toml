@@ -1,3 +1,11 @@
+["martinfowler.com"]
+select = ['article', 'main']
+hide = ['img']
+cleanParams = []
+
+
+
+
 ["www.ft.com"]
 select = ['.article-content']
 hide = [
