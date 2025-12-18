@@ -1307,6 +1307,7 @@ select = [
   'article',
   '[class^="RepostCommentList_"]',
   '.main_editor',
+  '#scroller',
 ]
 hide = [
   '[class^="Reward_box_"]',
