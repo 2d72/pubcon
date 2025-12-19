@@ -1318,6 +1318,7 @@ hide = [
   '[class*="translate_opt"]',
   '.del',
   '.userbox',
+  '[class*="transGap"]'
 ]
 cleanParams = [
   'continueFlag',
