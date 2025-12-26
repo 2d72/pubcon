@@ -3,7 +3,8 @@ select = ['article', 'main']
 hide = ['img']
 cleanParams = []
 
-
+["www.bis.org"]
+select = ['#center']
 
 
 ["www.ft.com"]
