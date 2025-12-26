@@ -1306,7 +1306,6 @@ cleanParams = []
 ["weibo.com"]
 select = [
   'article',
-  '[class^="RepostCommentList_"]',
   '.main_editor',
   '#scroller',
 ]
