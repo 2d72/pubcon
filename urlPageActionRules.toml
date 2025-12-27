@@ -1,3 +1,9 @@
+["lwn.net"]
+select = ['.middlecolumn']
+hide = [
+  'form'
+]
+
 ["m.thepaper.cn"]
 select = ['div[class^="wrapbox_"]']
 hide = [
