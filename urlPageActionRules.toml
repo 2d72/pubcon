@@ -232,6 +232,7 @@ cleanParams = []
 ["fund.eastmoney.com"]
 select = ['.newsContent']
 hide = [
+  '#shareTop',
   '.AboutCtrl',
   '.res-edit',
   '.res-edit ~ *',
