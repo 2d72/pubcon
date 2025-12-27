@@ -1,3 +1,11 @@
+["m.thepaper.cn"]
+select = ['div[class^="wrapbox_"]']
+hide = [
+  'div[class^="top_ad_articleNo_"]',
+  'div[class^="details_ad_"]',
+  'div[class^="details_ad_"] ~ *',
+]
+
 ["martinfowler.com"]
 select = ['article', 'main']
 hide = ['img']
