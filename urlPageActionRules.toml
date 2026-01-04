@@ -1440,9 +1440,9 @@ select = [
 hide = []
 cleanParams = []
 
-
 ["www.nytimes.com"]
 select = [
+  'article',
   'article#story header',
   'article#story section.meteredContent',
   '.article-content-container',
@@ -1451,6 +1451,7 @@ select = [
   '[class^="Article_ArticleHeader_"]',
 ]
 hide = [
+  'nav',
   '#bottom-sheet-sensor',
   '#styln-guide',
   '[aria-live="polite"]',
