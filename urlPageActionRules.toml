@@ -1,3 +1,10 @@
+["quantpedia.com"]
+select = ['.single-blog-post']
+hide = ['span.tags', 'hr.wp-block-separator', 'hr.wp-block-separator ~ *']
+cleanParams = []
+
+
+
 ["lwn.net"]
 select = ['.middlecolumn']
 hide = [
