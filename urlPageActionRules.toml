@@ -923,6 +923,7 @@ hide = [
   'figure',
   '[class^="AuthorBio_"]',
   'section.css--recirc-wrapper',
+  'div[class*="styles_subscriberLabel_"]',
   'div[class*="_shareBookmarkMobile_"]',
   'div[class*="_shareBottom_"]',
   'div[class*="_shareBottom_"] ~ *',
