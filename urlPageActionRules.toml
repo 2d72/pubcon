@@ -1,3 +1,16 @@
+["guba.eastmoney.com"]
+select = ['#newscontent']
+hide = [
+  '.news_nav',
+  '.newsinter',
+  '.news_ad_link',
+  '#zw_footer',
+  '.newsoperation',
+  '.newsoperation ~ *'
+]
+cleanParams = []
+
+
 ["caifuhao.eastmoney.com"]
 select = ['.page-article']
 hide = [
