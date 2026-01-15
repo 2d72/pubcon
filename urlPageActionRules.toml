@@ -1,3 +1,14 @@
+["caifuhao.eastmoney.com"]
+select = ['.page-article']
+hide = [
+  '#gbback',
+  '.article-about',
+  'a[href*="acttg.eastmoney.com/pub/webtg_"]',
+  '.article-footer'
+]
+cleanParams = ['from', 'name', 'gubaurl']
+
+
 ["quantpedia.com"]
 select = ['.single-blog-post']
 hide = ['span.tags', 'hr.wp-block-separator', 'hr.wp-block-separator ~ *']
