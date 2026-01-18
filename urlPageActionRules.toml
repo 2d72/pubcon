@@ -1109,16 +1109,20 @@ hide = [
 ]
 cleanParams = []
 
-
 ["www.thepaper.cn"]
 select = [
   'div[class^="index_wrapper_"]:has(h1)',
+  'div[class^="leftcontent_"]'
 ]
 hide = [
   'div[class*="copyrightBox"]',
   'div[class*="bottomBox"]',
   'div[class^="index_audio_"]',
   '.ant-dropdown-trigger',
+  '.commonCursor',
+  'div[class^="cententWrap_"] ~ *',
+  'div[class^="recommendsWrap_"]',
+  'div[class^="recommendsWrap_"] ~ *',
 ]
 cleanParams = []
 
