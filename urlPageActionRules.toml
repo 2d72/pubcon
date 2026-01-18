@@ -859,7 +859,7 @@ hide = [
   '.detail-content-tags',
   '.detail-content-tags ~ *',
 ]
-cleanParams = []
+cleanParams = ['u_atoken', 'u_asig']
 
 ["stock.10jqka.com.cn"]
 select = [
@@ -1521,7 +1521,7 @@ hide = [
   '.list-page-tab',
   'div.list-page-tab + ul',
 ]
-cleanParams = []
+cleanParams = ['u_atoken', 'u_asig']
 
 ["www.yicai.com"]
 select = [
