@@ -924,7 +924,7 @@ select = [
 hide = [
   'article ~ *',
   'div[class^="ToutCallout"]',
-  'section[class*="LandingPageSection"]',
+  'aside[class*="Sidebar-module-"]',
 ]
 cleanParams = []
 
