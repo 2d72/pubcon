@@ -689,18 +689,21 @@ hide = [
 ]
 cleanParams = []
 
-
 ["github.com"]
 select = [
   '#repository-container-header',
   'article.markdown-body',
   '.repository-content .Box-body',
-  '.Layout-sidebar'
+  '.Layout-sidebar',
+  'div.primary-viewer'
 ]
 hide = [
   'img.avatar',
+  'div[class*="PageHeader-Actions-"]',
+  '[data-testid="sticky-sidebar"]',
+  '#react-issue-comment-composer'
 ]
-cleanParams = []
+
 
 ["lobste.rs"]
 select = [
