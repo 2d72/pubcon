@@ -63,7 +63,12 @@ hide = [
   '.article-tools',
   '.article-tools ~ *'
 ]
-cleanParams = ['utm_social_handle_id', 'utm_social_post_id']
+cleanParams = [
+  'utm_social_handle_id', 
+  'utm_social_post_id',
+  'utm_sf_post_ref',
+  'utm_sf_cserv_ref'
+]
 
 
 
