@@ -391,7 +391,8 @@ hide = [
   '#RegularArticle-RelatedQuotes',
   'div[data-test="InlineImage"]',
   'div[class^="RelatedContent"]',
-  'div[data-test="VideoPlaceHolder"]'
+  'div[data-test="VideoPlaceHolder"]',
+  '[class*="RelatedStories-"]'
 ]
 cleanParams = []
 
