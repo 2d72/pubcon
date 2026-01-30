@@ -1,3 +1,13 @@
+["www.marketwatch.com"]
+select = ['div.column-full']
+hide = ['nav', '.article-body-tools', '.ad-slot',
+  'div[data-skip-label="Conversation"]',
+  'div[data-skip-label="Conversation"] ~ *',
+]
+cleanParams = ['gaa_at', 'gaa_n', 'gaa_ts', 'gaa_sig']
+
+
+
 ["guba.eastmoney.com"]
 select = ['#newscontent']
 hide = [
