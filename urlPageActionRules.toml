@@ -1,3 +1,8 @@
+["aswathdamodaran.blogspot.com"]
+select = ['.blog-posts']
+hide = []
+cleanParams = []
+
 ["www.marketwatch.com"]
 select = ['div.column-full']
 hide = ['nav', '.article-body-tools', '.ad-slot',
