@@ -1,3 +1,6 @@
+["blog.sorrycc.com"]
+select = ['article']
+
 ["*.toutiao.com"]
 select = ['.article-content']
 hide = []
