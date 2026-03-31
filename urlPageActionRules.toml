@@ -1279,6 +1279,7 @@ select = [
 hide = [
   'div.article__author a.avatar',
   '.ai_abstract_feedback',
+  '.filter_flag'
 ]
 cleanParams = []
 
