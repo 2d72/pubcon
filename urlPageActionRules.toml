@@ -1,3 +1,6 @@
+["linux.do"]
+select = ['h1', 'div[data-post-number="1"]' ]
+
 ["johnsonlee.io"]
 select = ['.post']
 hide = ['iframe', 'iframe ~ *']
