@@ -1428,7 +1428,6 @@ cleanParams = [
   'mark_id',
 ]
 
-
 ["www.bbc.com"]
 select = [
   'main',
@@ -1439,10 +1438,11 @@ hide = [
   'article ~ *',
   'div[data-component="tags"]',
   'section[data-e2e="scrollable-promos"]',
-  'div[data-testid="consentBanner"]'
+  'div[data-testid="consentBanner"]',
+  'section[data-e2e="recommendations-heading"]',
+  'section[aria-label="更多相关内容"]',
 ]
 cleanParams = []
-
 
 
 ["www.cb.com.cn"]
