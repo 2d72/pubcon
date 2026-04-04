@@ -1,3 +1,6 @@
+["www.techflowpost.com"]
+select = ['article']
+
 ["blog.orhun.dev/"]
 select = ['article']
 
