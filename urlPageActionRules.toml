@@ -900,7 +900,7 @@ cleanParams = []
 
 ["stcn.com"]
 select = [
-  '.column-810',
+  '.column-810', '.column-863'
 ]
 hide = [
   '.detail-content-tags',
