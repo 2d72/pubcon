@@ -1,3 +1,6 @@
+["blog.orhun.dev/"]
+select = ['article']
+
 ["www.xiaohongshu.com"]
 select = ['.interaction-container']
 hide = []
