@@ -1332,7 +1332,6 @@ select = [
 hide = []
 cleanParams = []
 
-
 ["finance.eastmoney.com"]
 select = [
   '.contentwrap',
@@ -1343,11 +1342,15 @@ hide = [
   '.zwothers',
   '.gopinluntxt',
   '.aboutctrl',
+  '.b-chart',
+  '.single-chart',
   'img',
   'a[href^="https://acttg.eastmoney.com/pub/webtg_hskh_act_zixun"]',
-  'a[href="https://choice.eastmoney.com/terminal"]'
+  'a[href="https://choice.eastmoney.com/terminal"]',
+  'a[href*="miaoxiang/?adid=web_mx"]'
 ]
 cleanParams = []
+
 
 
 ["gu.qq.com"]
