@@ -1201,7 +1201,8 @@ hide = [
   '#cx-snippet-overlay-sign-in-text ~ *',
   'div[data-block="doNotPrint"]',
   'div[data-block="doNotPrint"] ~ *',
-  '#bpc_archive'
+  '#bpc_archive',
+  'div[class*="-RibbonContainer-"]'
 ]
 
 
