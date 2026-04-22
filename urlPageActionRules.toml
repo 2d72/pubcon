@@ -1,3 +1,7 @@
+["finance.sina.cn"]
+select = ['article', 'div.weibo_info.look_info']
+
+
 ["www.techflowpost.com"]
 select = ['article']
 
