@@ -1,3 +1,8 @@
+["www.engadget.com"]
+select = ['article']
+hide = ['.breadcrumbs', '#conversation', '#conversation ~ *']
+cleanParams = []
+
 ["www.yicaiglobal.com"]
 select = ['.news-left-side .detail']
 hide = ['.detail-followed', '.detail-followed ~ *', 'audio']
