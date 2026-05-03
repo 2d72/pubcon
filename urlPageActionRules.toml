@@ -1203,9 +1203,10 @@ hide = [
 ]
 cleanParams = []
 
+
 ["www.wsj.com"]
 select = [
-  'main',
+  '.article-container', 'main'
 ]
 hide = [
   'nav',
@@ -1216,8 +1217,20 @@ hide = [
   'div[data-block="doNotPrint"]',
   '#bpc_archive',
   'div[class*="-RibbonContainer-"]',
+  'div[data-skip-label="What to Read Next"]',
+  'div[data-skip-label="What to Read Next"] ~ *',
+  'figure', 'img',
+  'div[data-block="dynamic-inset"]',
+  'div[data-type="inset"]',
+  'div[data-type="media"]',
+  'div[class*="-BreakingNews"]',
+  'div[data-id*="BackToFeedHeader"]',
+  'p[data-id*="BackToFeedHeader"]',
+  '[data-testid="buttonLink"]',
+  'div[type="wtrn_cxense"]'
 ]
-cleanParams = []
+
+
 
 
 ["www.xinhuanet.com"]
