@@ -1,3 +1,6 @@
+["bettermove.feishu.cn"]
+select = ['.page-block']
+
 ["www.goodreads.com"]
 select = ['.leftContainer']
 hide = ['.right', '.action', '.authorOrTitle', '#quote_book_link_22034']
