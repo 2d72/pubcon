@@ -1041,6 +1041,7 @@ hide = [
   'div[data-component="weekend-redirect-tout"]', 
   'p:has(a[href^="https://www.bloomberg.com/newsletters"])', 
   '.html-newsletter-tout',
+  'div[class*="_ledeVideo_"]'
 ]
 cleanParams = []
 
