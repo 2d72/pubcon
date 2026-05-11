@@ -1,3 +1,18 @@
+["gizmodo.com"]
+select = ['#main']
+hide = [
+  '.giz-cat-main', 
+  'img', 
+  'figure',
+  'button',
+  'a[href$="#comments"]',
+  'aside', 
+  'article ~ *', 
+  '.related-posts', 
+  '.giz-bg-main h2'
+]
+cleanParams = []
+
 ["bettermove.feishu.cn"]
 select = ['.page-block']
 
