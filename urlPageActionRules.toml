@@ -1632,19 +1632,6 @@ hide = [
 ]
 cleanParams = []
 
-["www.stcn.com"]
-select = [
-  '.column-810',
-]
-hide = [
-  '.detail-content-tags',
-  '.stock-tags',
-  '.detail-content-statement',
-  '#comment',
-  '.list-page-tab',
-  'div.list-page-tab + ul',
-]
-cleanParams = ['u_atoken', 'u_asig']
 
 ["www.yicai.com"]
 select = [
