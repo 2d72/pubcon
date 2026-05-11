@@ -939,15 +939,27 @@ hide = [
 ]
 cleanParams = []
 
-["stcn.com"]
+["www.stcn.com"]
 select = [
-  '.column-810', '.column-863'
+  '.column-810',
+  '.box_left'
 ]
 hide = [
+  '.website',
   '.detail-content-tags',
-  '.detail-content-tags ~ *',
+  '.stock-tags',
+  '.detail-content-statement',
+  '#comment',
+  '.list-page-tab',
+  'div.list-page-tab + ul',
+  '.fenxiang',
+  '.fenxiang ~ *'
 ]
-cleanParams = ['u_atoken', 'u_asig']
+cleanParams = [
+  'u_atoken',
+  'u_asig',
+]
+
 
 ["stock.10jqka.com.cn"]
 select = [
