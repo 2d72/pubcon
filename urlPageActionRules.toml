@@ -1,3 +1,9 @@
+["gs.amac.org.cn"]
+select = ['.wrap-layer']
+hide = ['.close-page', '.complain', '.footer']
+cleanParams = []
+
+
 ["gizmodo.com"]
 select = ['#main']
 hide = [
