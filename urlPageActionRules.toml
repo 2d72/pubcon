@@ -1,3 +1,6 @@
+["hachyderm.io"]
+select = ['.detailed-status', '.status', '.item-list']
+
 ["gs.amac.org.cn"]
 select = ['.wrap-layer']
 hide = ['.close-page', '.complain', '.footer']
