@@ -1,3 +1,7 @@
+["www.latimes.com"]
+select = ['.page-content']
+hide = ['.enhancement', 'article ~ *', '.rail', '.breadcrumbs']
+
 ["hachyderm.io"]
 select = ['.detailed-status', '.status', '.item-list']
 
