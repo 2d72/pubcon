@@ -1501,7 +1501,8 @@ hide = [
   '[class*="translate_opt"]',
   '.del',
   '.userbox',
-  '[class*="transGap"]'
+  '[class*="transGap"]',
+  '.articallist'
 ]
 cleanParams = [
   'continueFlag',
