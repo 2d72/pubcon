@@ -1,3 +1,10 @@
+["mashable.com"]
+select = ['article']
+hide = [
+  '.related-stories'
+]
+cleanParams = []
+
 ["www.latimes.com"]
 select = ['.page-content']
 hide = ['.enhancement', 'article ~ *', '.rail', '.breadcrumbs']
