@@ -1332,6 +1332,7 @@ hide = [
   'a[href*="whatsapp"]',
   'a[href*="/share/"]',
   'a[href^="mailto"]',
+  '.clear-both'
 ]
 cleanParams = ['ref']
 
