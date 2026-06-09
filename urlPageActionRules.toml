@@ -1569,6 +1569,7 @@ hide = [
   '.new-comment',
   '.detail-option-box ~ div',
   '.detail-stock-box',
+  '.detail-content ~ *',
 ]
 cleanParams = []
 
