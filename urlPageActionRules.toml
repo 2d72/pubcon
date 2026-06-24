@@ -1,3 +1,14 @@
+["www.36kr.com"]
+select = [
+  '.article-mian-content',
+]
+hide = [
+  '.article-footer-txt',
+]
+cleanParams = [
+  'f',
+]
+
 ["mashable.com"]
 select = ['article']
 hide = [
