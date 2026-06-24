@@ -864,6 +864,8 @@ select = []
 hide = [
   '#img_swiper_placeholder',
   '.share_media_swiper_wrp',
+  '#content_bottom_area',
+  '#js_article_bottom_bar'
 ]
 cleanParams = []
 
