@@ -106,17 +106,21 @@ hide = ['nav', '.article-body-tools', '.ad-slot',
 ]
 cleanParams = ['gaa_at', 'gaa_n', 'gaa_ts', 'gaa_sig']
 
-
-
 ["guba.eastmoney.com"]
-select = ['#newscontent']
+select = [
+  '#newscontent',
+  '.listtext',
+  '.replylist_content',
+]
 hide = [
   '.news_nav',
   '.newsinter',
   '.news_ad_link',
   '#zw_footer',
   '.newsoperation',
-  '.newsoperation ~ *'
+  '.newsoperation ~ *',
+  '.replybtn',
+  '.likemodule'
 ]
 cleanParams = []
 
