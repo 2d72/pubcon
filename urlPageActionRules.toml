@@ -122,8 +122,7 @@ hide = [
   '.replybtn',
   '.likemodule'
 ]
-cleanParams = []
-
+cleanParams = ['jumph5']
 
 ["caifuhao.eastmoney.com"]
 select = ['.page-article']
