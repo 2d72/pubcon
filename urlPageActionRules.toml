@@ -1408,7 +1408,7 @@ select = [
   '.comment-list-items'
 ]
 hide = []
-cleanParams = []
+cleanParams = ["r", "utm_campaign", "utm_medium", "triedRedirect"]
 
 
 ["auto-time.36kr.com"]
