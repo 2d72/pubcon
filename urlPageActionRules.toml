@@ -1,3 +1,9 @@
+["www.barrons.com"]
+select = ["article"]
+hide = ["article ~ *", ".print-wrapper ~ *", "nav"]
+cleanParams = ["mod"]
+
+
 ["www.36kr.com"]
 select = [
   '.article-mian-content',
