@@ -1086,7 +1086,10 @@ select = [
 ]
 hide = [
   'aside',
-  'figure',
+  '.photo-lede',
+  'img',
+  'dvz-podcast',
+  'figcaption',
   '[class^="AuthorBio_"]',
   'section.css--recirc-wrapper',
   'div[class*="styles_subscriberLabel_"]',
@@ -1102,17 +1105,18 @@ hide = [
   'div[class^="gridLayout_rightContent_]',
   'div[data-component="customizable-tickers"]',
   'a[data-component="terminal-tout"]',
-  'p:has(a[href^="https://www.bloomberg.com/account/newsletters/bloomberg"])', 
+  'p:has(a[href^="https://www.bloomberg.com/account/newsletters/bloomberg"])',
   'div[data-component="eyebrow"]',
   'div[class^="BasicContent_bookmarkSpeech"]',
   'p[data-component="assistance"] ~ *',
   'div[class*="_leftContent_"]',
-  'div[data-component="weekend-redirect-tout"]', 
-  'p:has(a[href^="https://www.bloomberg.com/newsletters"])', 
+  'div[data-component="weekend-redirect-tout"]',
+  'p:has(a[href^="https://www.bloomberg.com/newsletters"])',
   '.html-newsletter-tout',
-  'div[class*="_ledeVideo_"]'
+  'div[class*="_ledeVideo_"]',
 ]
 cleanParams = []
+
 
 
 ["www.cnstock.com"]
