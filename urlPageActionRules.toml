@@ -1382,17 +1382,16 @@ cleanParams = []
 select = [
   'div[aria-label^="Timeline: Conversation"]',
   'div[aria-label="Grok Conversation"]',
-  'article'
+  'article',
 ]
 hide = [
   'button[aria-label="Translate post"]',
   'div[aria-live="polite"]',
   'div[data-testid="inline_reply_offscreen"]',
-  'div[aria-label^="Timeline"] h2',
   'div[data-testid="cellInnerDiv"]:has(h2) ~ *',
   'div[data-testid="cellInnerDiv"] h2 ~ *',
 ]
-cleanParams = []
+
 
 ["xueqiu.com"]
 select = [
