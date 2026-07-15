@@ -1564,6 +1564,8 @@ hide = [
   'div[data-testid="consentBanner"]',
   'section[data-e2e="recommendations-heading"]',
   'section[aria-label="更多相关内容"]',
+  'section[data-e2e="recommendations-heading"]', 
+  'section[data-e2e="article-links-block"]'
 ]
 cleanParams = []
 
