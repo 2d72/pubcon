@@ -1,3 +1,14 @@
+["k.sina.com.cn"]
+select = [".main-content"]
+hide = [
+  ".path-search", 
+  "#article ~ *",
+  ".article-content-right", 
+  ".page-right-bar", 
+  ".article-notice"
+]
+cleanParams = ["cre", "mod", "loc", "rfunc", "tj", "tr", "r"]
+
 ["t.cj.sina.com.cn"]
 select = [".main-content"]
 hide = [
