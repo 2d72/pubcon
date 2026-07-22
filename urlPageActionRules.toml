@@ -522,8 +522,11 @@ select = ['.box-abstract-main', '.box-paper-statics']
 select = ['.scrollable']
 
 ["www.cnbc.com"]
-select = ['.Article']
+select = [
+  '.Article',
+]
 hide = [
+  'img',
   '.SidebarArticle-sidebar',
   '.ArticleHeader-eyebrow',
   'img.Author-authorPortrait',
@@ -531,7 +534,10 @@ hide = [
   'div[data-test="InlineImage"]',
   'div[class^="RelatedContent"]',
   'div[data-test="VideoPlaceHolder"]',
-  '[class*="RelatedStories-"]'
+  '[class*="RelatedStories-"]',
+  '.RelatedContent-relatedContent',
+  '.TransporterSection-transporterWrapper',
+  '.TopBanner-container'
 ]
 cleanParams = []
 
