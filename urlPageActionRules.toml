@@ -1,3 +1,9 @@
+["www.federalreserve.gov"]
+select = [".row"]
+hide = [".page-header", ".footer__content", ".footer__content ~ *"]
+cleanParams = []
+
+
 ["k.sina.com.cn"]
 select = [".main-content"]
 hide = [
