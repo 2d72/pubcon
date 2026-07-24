@@ -1,3 +1,15 @@
+["www.theverge.com"]
+select = ["article"]
+hide = [
+  ".duet--article--block-placement",
+  ".duet--article--comments-link",
+  ".duet--layout--rail",
+  "img",
+  ".duet--article--standard-paragraph em sub", 
+  ".tly2fw0"
+]
+cleanParams = []
+
 ["www.federalreserve.gov"]
 select = [".row"]
 hide = [".page-header", ".footer__content", ".footer__content ~ *"]
