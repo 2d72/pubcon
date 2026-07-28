@@ -325,7 +325,7 @@ hide = [
   '#footer',
   'p.pl'
 ]
-cleanParams = []
+cleanParams = ["_spm_id", "type"]
 
 
 ["www.gelonghui.com"]
