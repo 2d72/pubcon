@@ -1,3 +1,13 @@
+["www.npr.org"]
+select = ["article.story"]
+hide = [
+  ".slug-wrap", 
+  "#end-of-story-recommendations-mount", 
+  ".tags",
+  ".bucket .img", 
+  ".bucketblock"
+]
+
 ["blog.cleancoder.com"]
 select = ["#blog"]
 
