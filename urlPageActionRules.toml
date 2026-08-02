@@ -1,3 +1,6 @@
+["blog.cleancoder.com"]
+select = ["#blog"]
+
 ["www.emergentmind.com"]
 select = ["#topic-content"]
 
