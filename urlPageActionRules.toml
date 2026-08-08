@@ -1,3 +1,9 @@
+["www.pingwest.com"]
+select = ["section.article-row"]
+hide = ['aside', 'section.author-news', 'section.author-news ~ *', 
+  'section.comment-box']
+cleanParams = []
+
 ["www.npr.org"]
 select = ["article.story"]
 hide = [
