@@ -533,7 +533,8 @@ cleanParams = []
 ["www.wired.com"]
 select = ['article']
 hide = []
-cleanParams = []
+cleanParams = ["utm_brand", "utm_social-type", "utm_source", "utm_medium", "utm_campaign"]
+
 
 ["news.futunn.com"]
 select = ['.newsDetailBox']
