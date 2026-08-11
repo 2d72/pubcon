@@ -1736,7 +1736,7 @@ hide = [
   'div[data-testid^="RelatedLinksBlock"]',
   'div[data-testid^="RelatedLinksBlock"] ~ *',
 ]
-cleanParams = []
+cleanParams = ["smid"]
 
 
 ["www.sohu.com"]
