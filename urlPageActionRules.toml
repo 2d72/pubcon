@@ -630,6 +630,8 @@ hide = [
   'div[data-qa*="ActionWidgets"]',
   'a[href*="/policies-and-standards"]'
 ]
+cleanParams = ["module", "pgtype"]
+
 
 ["*.medium.com"]
 select= ['article']
