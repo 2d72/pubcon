@@ -1,3 +1,14 @@
+["www.politico.com"]
+select = ["#main"]
+hide = [
+  'aside[data-testid="article-tags"]',
+  'div[data-testid="generic-embed-wrapper"]',
+  'span[data-testid="site-flag"]',
+  'div[data-testid="article-column-right"]'
+]
+cleanParams = []
+
+
 ["www.pingwest.com"]
 select = ["section.article-row"]
 hide = ['aside', 'section.author-news', 'section.author-news ~ *', 
