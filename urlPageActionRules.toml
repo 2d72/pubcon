@@ -1,3 +1,7 @@
+["www.piglei.com"]
+select = [".article"]
+hide = ["blockquote", ".shadow-sm"]
+
 ["www.politico.com"]
 select = ["#main"]
 hide = [
