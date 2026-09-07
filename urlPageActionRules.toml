@@ -1,3 +1,7 @@
+["elsewhere.news"]
+select = ["article"]
+hide = ["span.content-meta-token"]
+
 ["www.piglei.com"]
 select = [".article"]
 hide = ["blockquote", ".shadow-sm"]
