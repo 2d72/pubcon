@@ -1,3 +1,11 @@
+["ramp.com"]
+select = [
+  "time",
+  "h1",
+  "a[href^='/authors/']",
+  "#portable-text"
+]
+
 ["elsewhere.news"]
 select = ["article"]
 hide = ["span.content-meta-token"]
