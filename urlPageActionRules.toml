@@ -1,3 +1,6 @@
+["mastodon.social"]
+select = [".column"]
+
 ["ramp.com"]
 select = [
   "time",
