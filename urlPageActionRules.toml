@@ -653,15 +653,20 @@ hide = [
 ]
 
 ["www.scmp.com"]
-select = ['article']
+select = [
+  'article',
+]
 hide = [
   'div[data-qa*="TopicAndSection"]',
+  'span[data-qa*="ContentHeadlineTag"]',
   'div[data-qa*="ReadingTime"]',
   'div[data-qa*="ActionWidgets"]',
-  'a[href*="/policies-and-standards"]'
+  'a[href*="/policies-and-standards"]',
 ]
-cleanParams = ["module", "pgtype"]
-
+cleanParams = [
+  'module',
+  'pgtype',
+]
 
 ["*.medium.com"]
 select= ['article']
