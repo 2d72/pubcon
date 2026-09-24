@@ -1,3 +1,9 @@
+["www.moomoo.com"]
+select = [".newsDetailBox"]
+hide = [".quickLike", ".operation", ".tips-section"]
+cleanParams = ["level", "data_ticket"]
+
+
 ["mastodon.social"]
 select = [".column"]
 
