@@ -527,13 +527,18 @@ hide = [
 ]
 
 ["www.washingtonpost.com"]
-select = ['main']
+select = [
+  'main',
+]
 hide = [
+  'div[role="navigation"]',
+  'a[data-qa="kicker"]',
   'div[class*="showDuration"]',
   'span[data-testid="relative-date"]',
-  '.article-bottom-action-bar ~ *', 
-  '.hide-for-print'
+  '.article-bottom-action-bar ~ *',
+  '.hide-for-print',
 ]
+cleanParams = []
 
 ["www.douban.com"]
 select = ['.article']
