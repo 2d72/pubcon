@@ -1507,7 +1507,7 @@ hide = [
 cleanParams = []
 
 
-["*.xueqiu.com"]
+["*xueqiu.com"]
 select = [
   '.article__container',
   '.article__author',
