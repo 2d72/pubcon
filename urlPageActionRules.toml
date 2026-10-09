@@ -1782,9 +1782,12 @@ hide = [
   '#c-col-editors-picks',
   'aside',
   'div[data-testid^="RelatedLinksBlock"]',
-  'div[data-testid^="RelatedLinksBlock"] ~ *',
+  '.bottom-of-article',
+  '.bottom-of-article ~ *'
 ]
-cleanParams = ["smid"]
+cleanParams = [
+  'smid',
+]
 
 
 ["www.sohu.com"]
